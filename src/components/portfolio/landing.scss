@@ -4,12 +4,13 @@
 .landing {
     filter: saturate(1.2);
     background-image: url("/img/Mountains.jpg");
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1),transparent), url("/img/Mountains.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
     position: fixed;
     .job-title {
-        margin-top: 7%;
+        margin-top: 8%;
         h1{
             font-family: 'Open Sans';
             // font-family: 'Roboto';
