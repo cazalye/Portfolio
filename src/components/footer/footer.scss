@@ -1,0 +1,24 @@
+
+.footer-links {
+    text-align: left;
+    position: fixed;
+    bottom:2px;
+    left:10px;
+    i{
+        // color: black;
+        color:white;
+        font-size:22px;
+        padding: 20px;
+        padding-bottom:15px;
+    }
+    .footer-newsletter{
+        position: fixed;
+        bottom: 5px;
+        left:300px;
+        p{
+            color:red;
+        }
+    }
+}
+
+
