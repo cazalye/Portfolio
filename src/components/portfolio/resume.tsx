@@ -6,6 +6,7 @@ import Skills from './skills';
 // import Publications from './publications';
 // import Awards from './awards';
 // import References from './references';
+import './resume.scss';
 
 class Resume extends Component {
     render() {
@@ -13,7 +14,13 @@ class Resume extends Component {
                 <Grid className="resume-grid">
                     <Cell className="resume-col resume-left-col" col={4}> 
                         <h1>A designer who codes</h1>
-                        <h2>I create inspiring websites, evocative designs and catchy copy. My work centers around adventure, conscious living and environmental awareness.</h2>
+                        <h2>I create evocative travel blogs, catchy copy and enticing e-commerce sites. <hr/>
+                            My work centers around modern, intuitive, responsive designs that inspire users.  <hr/>
+                            I have a background in Data Science where I specialised in Big Data Analytics. Currently I leverage these analytical skills and strong attention to detail to deliver highly effective, pixel perfect web solutions, building new websites from start to finish.  <hr/>
+                            I'm passionate about photography, travel and the outdoors.
+
+
+                        </h2>
                     </Cell>
                     <Cell className="resume-col resume-right-col" col={8}>
                             <Tooltip className="arrow-tooltip" label="Scroll Down" position="bottom">
