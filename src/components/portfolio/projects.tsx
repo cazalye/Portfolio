@@ -1,11 +1,29 @@
 import React, { Component } from 'react';
 import './projects.scss';
+import ProjectCards from './projectCards';
 
 class Projects extends Component {
     render() {
         return (
             <div id="projects">
-                <div className='ecommerce'>
+                <ProjectCards
+                    title="e-commerce"
+                    summary="summary summary"
+                    image="url(/img/Mountains.jpg)"
+                />
+                <ProjectCards
+                    title="Travel Blog"
+                    summary="summary summary"
+                />
+                <ProjectCards
+                    title="Portfolio"
+                    summary="summary summary"
+                    link= "https://github.com/cazalye/cazalye"
+                    icon= "fab fa-github"
+                />
+
+
+                {/* <div className='ecommerce'>
                     <h2>E-commerce</h2>
                     <a href="brandsonparade.com"> Brands on Parade </a>
                     <p>A modern e-commerce site built with WooCommerce</p>
@@ -25,7 +43,7 @@ class Projects extends Component {
                         <li>Social Media sharing options and image feed</li>
                         <li>Site back up</li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         );
     }
