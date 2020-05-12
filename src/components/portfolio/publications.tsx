@@ -15,7 +15,7 @@ class Publications extends Component<PublicationProps, PublicationProps> {
                     <p>{this.props.publicationYear}</p>
                 </Cell>
                 <Cell col={8}>
-                    <p>{this.props.publicationJournal}</p>
+                    <h4>{this.props.publicationJournal}</h4>
                     <a href={this.props.publicationLink} target="_blank" rel="noopener noreferrer">{this.props.publicationTitle}</a>
                 </Cell>
             </Grid>

@@ -17,9 +17,9 @@ class Resume extends Component {
                         <h2>I create evocative travel blogs, catchy copy and enticing e-commerce sites. <hr/>
                             My work centers around modern, intuitive, responsive designs that inspire users.  <hr/>
                             I have a background in Data Science where I specialised in Big Data Analytics.<hr/>
-                            I now combine these analytical skills and strong attention to detail with relevant development tools and a strong understanding of UI / UX Design, to deliver highly effective, pixel perfect web solutions, building new websites from start to finish. 
+                            I now combine these analytical skills and my strong attention to detail with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish. 
                            <hr/>
-                            I'm passionate about photography, travel and the outdoors.<hr/>
+                            I'm passionate about photography, travel and inspiring others.<hr/>
 
                         </h2>
                     </Cell>
@@ -29,7 +29,7 @@ class Resume extends Component {
                             </Tooltip>
                         <h2>Skills</h2>
                         <Skills
-                            skill="HTML / CSS / SASS"
+                            skill="HTML / CSS (SASS)"
                             progress={80}
                         />
                         <Skills
@@ -41,7 +41,7 @@ class Resume extends Component {
                             progress={40}
                         />
                          <Skills
-                            skill="Version Control: Git & Github"
+                            skill="Git & Github"
                             progress={60}
                         />
                         
@@ -82,7 +82,7 @@ class Resume extends Component {
                             progress={60}
                         />
                          <Skills
-                            skill="Photography & editing"
+                            skill="Photography & Editing"
                             progress={80}
                         />
                         <hr/>
@@ -91,8 +91,9 @@ class Resume extends Component {
                             startYear={2020}
                             jobName="Freelance Web Developer"
                             project="Brands on Parade Bottle Shop"
-                            jobDescription="A modern e-commerce site built with WooCommerce. For details of this project please see the projects tab."
-                            url="brandsonparade.com"
+                            jobDescription="A modern e-commerce site built with WooCommerce. For details of this work please see the projects tab."
+                            url="https://brandsonparade.com"
+                            site="Visit site"
                             // project2="Cazalye Travel Blog"
                             // jobDescription2="A travel website focused on adventure inspiration & photography"
                             // url2="www.cazalye.com"
@@ -167,8 +168,8 @@ class Resume extends Component {
                          <h2>First author Publications</h2>
                         <Publications
                             publicationYear={2020}
-                            publicationTitle="Associations of alcohol consumption with epigenome-wide DNA methylation and epigenetic age acceleration: Individual-level and co-twin comparison analyses"
-                            publicationJournal="Alcoholism: Clinical and Experimental Research (Under Review)"
+                            publicationTitle="Associations of alcohol consumption with epigenome-wide DNA methylation and epigenetic age acceleration: Individual-level and co-twin comparison analyses (Under Review)"
+                            publicationJournal="Alcoholism: Clinical and Experimental Research"
                         />
                         <Publications
                             publicationYear={2019}
@@ -226,7 +227,7 @@ class Resume extends Component {
                         />
                         <References
                             Name="Associate Professor Jing Tang"
-                            Description="Collaborator, Co-author of 2019 Publication"
+                            Description="Collaborator, co-author of 2019 publication"
                             Company="Institute for Molecular Medicine Finland"
                             Email="jing.tang@fimm.fi"
                             Phone="NA"

@@ -1,3 +1,5 @@
+@import "../../styles/_colors.scss";
+
 .mdl-grid.resume-grid{
     filter: saturate(1);
     background-image: url("/img/Mountains.jpg");
@@ -24,7 +26,7 @@
       padding-right: 1.5em;
       padding-left: 1.5em;
       // background-color:#fb9073;
-      background-color: rgba(251, 144, 115,.5);
+      background-color: $fadedOrange;
       opacity: 1;
       margin-top: 64px;
       margin-left: 0px;
@@ -77,20 +79,21 @@
     h2{
       font-family: 'Open Sans';
       font-weight: 100;
-      color: #fb9073;
-      color: rgba(251, 144, 115, 1);
+      // color: #fb9073;
+      // color: rgba(251, 144, 115, 1); 
+      color: $orange;
     }
     h4{
       font-family: 'Open Sans';
       font-weight: 100;
       margin-top: 0px;
-      color: #fb9073;
+      color: $orange;
     }
     .material-icons{
       font-size: 36px;
       margin-left: -42px;
       /* color: #ffc9b9; */
-      color: #fb9073;
+      color: $orange;
       opacity: 0.7;
       z-index: 0;
     }
@@ -99,11 +102,11 @@
       color: white;
     }
     a{
-      color:#fb9073;
+      color:$orange;
       }
     .publication-year a{
-      color:white;
-      }
+      color: white;
+    }
   }
 }
 // .resume-skill-col{
@@ -114,23 +117,11 @@
 //   color:#eee;
 // }
 
-
-// .resume-grid .resume-right-col span, .resume-grid .resume-right-col p{
-//   font-size: 16px;
-//   color: white;
-// }
-// .resume-grid .resume-right-col a{
-// color:#fb9073;
-// }
-// .resume-grid .resume-right-col .publication-year a{
-// color:white;
-// }
- 
   
   
   .resume-skill-col .mdl-progress .progressbar {
     /* background-color: rgb(63,81,181); */
-    background-color:#fb9073; 
+    background-color:$orange; 
     z-index: 1;
     left: 0;
   }
