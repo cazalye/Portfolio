@@ -23,9 +23,9 @@ class Footer extends Component{
                 <a href="tel:+61421698344" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-phone" aria-hidden="true" />
                 </a>
-                <a href="https:cazalye.com" rel="noopener noreferrer" target="_blank">
+                {/* <a href="http://cazalye.com" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-globe" aria-hidden="true" />
-                </a>
+                </a> */}
             </div>
         );
     }
