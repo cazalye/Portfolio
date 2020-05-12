@@ -1,26 +1,42 @@
 .aboutme-background{
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03),transparent), url("/img/Me_autumn.jpg");
+    // background: linear-gradient(to right, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03),transparent), url("/img/Me_autumn.jpg");
+    // background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1), transparent), url("/img/me_waterhole.jpg");
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4)), url("/img/Mountains.jpg");
     background-size: cover;
+    // background-color: #d1dde0;
     width: 100%;
     height: 100vh;
     overflow-y: scroll;
     position: fixed;
+    .aboutme-image{
+        position: absolute;
+        width: 37%;
+        height: 77%;
+        right: 2%;
+        top: 12%;
+        background-color: rgba(0,0,0,.3);
+    }
+    .me-portrait{
+        position: absolute;
+        right: 5%;
+        top: 12%;
+    }
     .aboutme-text{
-        width: 40%;
+        width: 50%;
         margin-top: 10%;
-        margin-left: 3%;
+        margin-left: 5%;
         h2{
            font-family: 'Open Sans'; 
            font-weight: 100;
-           font-size: 45px;
+           font-size: 38px;
            text-align: left;
            color: black;
            margin-bottom: 50px;
         }
         p{
             font-family: 'Open Sans'; 
-            font-weight: 400;
-            font-size: 26px;
+            font-weight: 100;
+            font-size: 22px;
             line-height: 32px;;
             margin-bottom: 40px;
             color: #333;
