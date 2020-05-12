@@ -6,6 +6,9 @@ import About from './portfolio/about';
 import PhotographyTravel from './portfolio/photographyTravel';
 import Resume from './portfolio/resume';
 import Projects from './portfolio/projects';
+import Ecommerce from './portfolio/ecommerce';
+import TravelBlog from './portfolio/travelBlog';
+import Portfolio from './portfolio/portfolio';
 
 
 
@@ -17,6 +20,10 @@ const View = () => (
         <Route exact={true} path='/photography' component={PhotographyTravel}/>
         <Route exact={true} path='/resume' component={Resume}/>
         <Route exact={true} path='/projects' component={Projects}/>
+        <Route exact={true} path='/ecommerce' component={Ecommerce}/>
+        <Route exact={true} path='/travelBlog' component={TravelBlog}/>
+        <Route exact={true} path='/portfolio' component={Portfolio}/>
+
     </Switch>
 );
 
