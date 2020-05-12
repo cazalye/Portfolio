@@ -7,43 +7,31 @@ class Projects extends Component {
         return (
             <div id="projects">
                 <ProjectCards
-                    title="e-commerce"
-                    summary="summary summary"
-                    image="url(/img/Mountains.jpg)"
+                    title="E-commerce"
+                    summary="An elegant online bottle shop, built with WooCommerce"
+                    more="/ecommerce"
+                    siteLink= "https://brandsonparade.com"
+                    siteIcon= "fa fa-globe"
+                    // siteIcon= "fab fa-wordpress-simple"
                 />
                 <ProjectCards
                     title="Travel Blog"
-                    summary="summary summary"
+                    summary="A visually rich travel blog, built with React and Wordpress"
+                    more="/travelBlog"
+                    gitLink= "https://github.com/cazalye/cazalye"
+                    gitIcon= "fab fa-github"
+                    siteLink= "http://cazalye.com"
+                    siteIcon= "fa fa-globe"
                 />
                 <ProjectCards
-                    title="Portfolio"
-                    summary="summary summary"
-                    link= "https://github.com/cazalye/cazalye"
-                    icon= "fab fa-github"
+                    title="Portfolio Site"
+                    summary="A modern portfolio, built with React"
+                    more="/portfolio"
+                    gitLink= "https://github.com/cazalye/portfolio"
+                    gitIcon= "fab fa-github"
+                    siteLink= "https://portfolio.cazalye.com"
+                    siteIcon= "fa fa-globe"
                 />
-
-
-                {/* <div className='ecommerce'>
-                    <h2>E-commerce</h2>
-                    <a href="brandsonparade.com"> Brands on Parade </a>
-                    <p>A modern e-commerce site built with WooCommerce</p>
-                    <h3>What I did</h3>
-                    <ul>
-                        <li>Product & Marketing Photography</li>
-                        <li>Design customisation</li>
-                        <li>Hosting setup, Domain Name & email transfer</li>
-                        <li>Wordpress & WooCommerce Installation</li>
-                        <li>Product listings</li>
-                        <li>On brand copy: product listings, about page, contact page, T&Cs, privacy/refund policies</li>
-                        <li>Security: SSL certificate</li>
-                        <li>Payment Gateways, link to accounting software</li>
-                        <li>Delivery option customisation</li>
-                        <li>User Experience including Usability Tests</li>
-                        <li>SEO, Google Indexing & Google Analytics</li>
-                        <li>Social Media sharing options and image feed</li>
-                        <li>Site back up</li>
-                    </ul>
-                </div> */}
             </div>
         );
     }

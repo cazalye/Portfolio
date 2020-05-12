@@ -1,24 +1,15 @@
 import React, { Component } from 'react';
-import {Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
-import { Url } from 'url';
-
+import {Link} from 'react-router-dom';
 
 interface ProjectCardProps{
-    image?: string,
     title: string, 
     summary: string,
-    // icons: [
-    //     {
-    //         link: string,
-    //         icon: string,
-    //     },
-    //     {
-    //         link: string,
-    //         icon: string,
-    //     },
-    // ]
-    link?: string,
-    icon?: string,
+    more: string,
+    gitLink?: string,
+    gitIcon?: string,
+    siteLink: string,
+    siteIcon: string,
+    
 }
 class ProjectCards extends Component<ProjectCardProps,ProjectCardProps> {
 
@@ -30,8 +21,13 @@ class ProjectCards extends Component<ProjectCardProps,ProjectCardProps> {
                 <div className="content">
                     <h2>{this.props.title}</h2>
                     <p>{this.props.summary}</p>
-                    <a href={this.props.link} rel="noopener noreferrer" target="_blank">
-                    <i className={this.props.icon} aria-hidden="true"/></a>
+                    <Link className="project-link" to={this.props.more}>Project Details</Link>
+                    <a href={this.props.gitLink} rel="noopener noreferrer" target="_blank">
+                        <i className={this.props.gitIcon} aria-hidden="true"/>
+                    </a>
+                    <a href={this.props.siteLink} rel="noopener noreferrer" target="_blank">
+                        <i className={this.props.siteIcon} aria-hidden="true"/>
+                    </a>
                 </div>
             </div>
         );
