@@ -5,15 +5,34 @@ class Portfolio extends Component {
     render() {
         return (
             <div id="project-details">
+                <div className="feature-image">
+                    <img src="/img/Mountains.jpg" height="auto" width="100%" alt="cazalye travel blog"/>
+                </div>
+                {/* <Breadcrumbs maxItems={4} aria-label="breadcrumb" className="breadcrumbs">
+                        <Link to="/" color="inherit">
+                            Home
+                        </Link>
+                        <Link to="/photoDiaries" color="inherit">
+                            Photo Diaries
+                        </Link>
+                    </Breadcrumbs> */}
+                <div className="project-summary"> 
+                    <h2>Portfolio Website</h2>
+                    <h3>Client</h3>
+                    <p>My own portfolio</p>
+                    <h3>Date</h3>
+                    <p>May 2020</p>
+                    <h3>My Role</h3>
+                    <p>Design, Development</p>
+                </div>
+
                 <div className="project-content">
-                    <h2>Portfolio Site</h2>
                     <h3>The Brief</h3>
-                    <p>What the brief is - Include a few photos? ie. images of the boys</p>
+                    <p>I began this site as my first experience of React.. with JS and CSS. Later after my blog site I came back to the portfolio, converted it to TS and SCSS and updated the content</p>
                     <h3>The Approach</h3>
-                    <p>How I appoached it, including the stack</p>
-                    <p>My specific role/tasks: ie for brands it includes photogprahy etc. For Blog describe what I did vs what Filippo did. Remote collaboration with Visual Code Studio</p>
+                    <p>React, TS, SCSS</p>
                     <h3>The Results</h3>
-                    <p>What was delivered, testimonial, increased sales, link website</p>
+                    <p>A modern minimal-style portfolio to showcase my skills and projects</p>
                 </div>
             </div>
         );
