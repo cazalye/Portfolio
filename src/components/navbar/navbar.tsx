@@ -17,7 +17,7 @@ class Navbar extends Component<any, any> {
                     <Navigation className="header-nav">
                         <Link to="/resume">Resume</Link> 
                         <Link to="/projects">Projects</Link>
-                        <Link to="/photography">Photography</Link>
+                        {/* <Link to="/photography">Photography</Link> */}
                         <Link to="/about">About</Link>
                         <Link to="/contact">Contact</Link>
                     </Navigation>
@@ -26,7 +26,7 @@ class Navbar extends Component<any, any> {
                     <Navigation className="drawer-nav" >
                         <Link onClick={() => this.hideToggle()} to="/resume">Resume</Link> 
                         <Link onClick={() => this.hideToggle()} to="/projects">Projects</Link>
-                        <Link onClick={() => this.hideToggle()} to="/photography">Photography</Link>
+                        {/* <Link onClick={() => this.hideToggle()} to="/photography">Photography</Link> */}
                         <Link onClick={() => this.hideToggle()} to="/about">About</Link>
                         <Link onClick={() => this.hideToggle()}to="/contact">Contact</Link>
                     </Navigation>
