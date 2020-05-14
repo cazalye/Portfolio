@@ -10,6 +10,26 @@
     // position: absolute;
     overflow-x: hidden;
     overflow-y: scroll;
+    .breadcrumbs{
+        z-index: 10;
+        position: absolute;
+        top:7%;
+        left: 20px;
+        color: #444;
+        // color: red;
+        a{
+            color: #444;
+            color: #555;
+            // color: red;
+        }
+        a:hover{
+            color:#888;
+        }
+        .current-page{
+            color: #777;
+            color: $lightGreen;
+        }
+    }
     .image-overlay-travel{
         background: linear-gradient(to right, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.01), transparent);
         background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 15%,rgba(255, 255, 255, 0.1) 25%, transparent 30%);
@@ -120,10 +140,10 @@
         top: 95%;
         left: 50%;
         color:$orange;
-        z-index: 4;
+        z-index: 8;
     }
     .project-content{
-        z-index: 3;
+        z-index: 7;
         position: absolute;
         background-color: $blue;
         height: auto;

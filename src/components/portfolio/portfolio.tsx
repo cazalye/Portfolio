@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './projectDetail.scss';
 import {Tooltip,Icon} from 'react-mdl';
 import {Link} from 'react-router-dom';
+import {Breadcrumbs} from '@material-ui/core';
 
 class Portfolio extends Component {
     render() {
@@ -16,8 +17,8 @@ class Portfolio extends Component {
                         <Link to="/" color="inherit">
                             Home
                         </Link>
-                        <Link to="/photoDiaries" color="inherit">
-                            Photo Diaries
+                        <Link to="/projects" color="inherit">
+                            Projects
                         </Link>
                     </Breadcrumbs> */}
 
@@ -45,12 +46,9 @@ class Portfolio extends Component {
 
                 <div className="project-content">
                     <h3>The Brief</h3>
-                    <p>One of the first things I discovered on my path to becoming a web devloper was the importance of a strong portfolio. Evidence also suggests that the best way to learn a new skill is by practical based projects, with a high similarity and transferance to the task the skill will be used for. As such, building my own portfolio also served as an effecive, hands on way to learn a modern JavaScript framework. </p>
+                    <p>One of the first things I discovered on my path to becoming a front-end web developer was the importance of a strong portfolio. Evidence also suggests that the best way to learn a new skill is through practical based projects- especially those with a high similarity and transferance to the target role. As such, building my own portfolio served as an effective, hands on way to learn a modern JavaScript framework. </p>
                     <h3>The Approach</h3>
-                    <p>As this site was my first foray into the world of React, I began by following a YouTube tutorial on how to build a portfolio. Through this tutorial I learnt the basics of React, including common libraries such as React-MDL and React-router-dom. Initally, I used JavaScript and vanilla CSS for the project. Later, after gaining experience with React during the creation of my blog site, I returned to the portfolio and converted the code to TypeScript and SCSS, as by this stage the power and efficiency of these supersets were clear to me.</p>
-                    <h3>The Results</h3>
-                    <p>A modern minimalist-style portfolio that showcases my skills and projects</p>
-                    <Link to="/"> Visit Site</Link>
+                    <p>As this site was my first foray into the world of React, I began by following a YouTube tutorial on how to build a portfolio. Through this tutorial I learnt the basics of HTML, CSS, JavaScript and React- including popular component libraries such as React-MDL. Initally, I used JavaScript and vanilla CSS for the project. Later, after gaining experience with React during the creation of my blog site, I returned to the portfolio and converted the code to TypeScript and SCSS, as by this stage the power and efficiency of these supersets were clear to me.</p>
                     <a href="https://github.com/cazalye/portfolio" rel="noopener noreferrer" target="_blank">
                         Visit final GitHub Repo  
                         {/* <i className="fab fa-github" aria-hidden="true"/> */}
@@ -58,6 +56,9 @@ class Portfolio extends Component {
                     <a href="https://github.com/cazalye/myportfoliosite" rel="noopener noreferrer" target="_blank">
                         Visit initial GitHub Repo  
                     </a>
+                    <h3>The Results</h3>
+                    <p>A modern minimalist-style portfolio that showcases my skills and projects.</p>
+                    <Link to="/"> Visit Site</Link>
                 </div>
             </div>
         );
