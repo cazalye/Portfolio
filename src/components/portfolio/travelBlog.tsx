@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './projectDetail.scss';
+import {Tooltip,Icon} from 'react-mdl';
 
 class TravelBlog extends Component {
     render() {
         return (
             <div id="project-details">
+                <div className="image-overlay-travel"/>
                 <div className="feature-image">
                     <img src="/img/Rafting.jpg" height="auto" width="100%" alt="cazalye travel blog"/>
                 </div>
@@ -26,8 +28,13 @@ class TravelBlog extends Component {
                     <h3>My Role</h3>
                     <p>Design, Development, Photography, Content Creation</p>
                     <h3>Check it out</h3>
-                    <a href="http://cazalye.com"> Launch Site</a>
+                    <a href="http://cazalye.com" rel="noopener noreferrer" target="_blank"> Launch Site</a>
                 </div>
+
+                <Tooltip className="arrow-tooltip" label="Scroll Down" position="bottom">
+                    <Icon name="arrow_downward" />
+                </Tooltip>
+
                 <div className="project-content">
                     {/* <h2>Travel Blog: cazalye.com</h2> */}
                     <h3>The Brief</h3>
@@ -38,7 +45,8 @@ class TravelBlog extends Component {
                     <p>For this passion project I collaborated with a full stack developer who had 4 years experience leading large projects, particularly e-commerce sites. The first month of the projet was face-to-face, after which I moved back to Australia and predominantly worked on the site myself. We had regular remote coding sessions for bug fixes and adding new elements- for this we used Visual Studio Code's Live Share feature, including sharing the development server. Throughout the project git/GitHub was used for version control and to share code.</p>
                     <h3>The Results</h3>
                     <p>An exciting, visually rich travel blog that reflects my personal style and provides me with a unique platform to share my travel photography and writing</p>
-                    <a href="http://cazalye.com"> Visit Site</a>
+                    <a href="http://cazalye.com" rel="noopener noreferrer" target="_blank"> Visit Site</a>
+                    <a href="https://github.com/cazalye/cazalye" rel="noopener noreferrer" target="_blank"> Visit GitHub Repo</a>
                 </div>
             </div>
         );

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './projectDetail.scss';
+import {Tooltip,Icon} from 'react-mdl';
 // import {Breadcrumbs} from '@material-ui/core';
 // import {Link} from 'react-router-dom';
 
@@ -30,8 +31,12 @@ class Ecommerce extends Component {
                     <h3>My Role</h3>
                     <p>Product & Marketing Photography, Design & WooCommerce Customisation, Hosting & Deployment, Product Listings, UX & Usability Testing</p>
                     <h3>Check it out</h3>
-                    <a href="https://brndsonparade.com"> Launch Site</a>
+                    <a href="https://brandsonparade.com" rel="noopener noreferrer" target="_blank"> Launch Site</a>
                 </div>
+                
+                <Tooltip className="arrow-tooltip" label="Scroll Down" position="bottom">
+                    <Icon name="arrow_downward" />
+                </Tooltip>
 
                 <div className="project-content">
                     <h3>The Brief</h3>
@@ -56,9 +61,9 @@ class Ecommerce extends Component {
                         <li>Site back up</li>
                     </ul>
                     <h3>The Results</h3>
-                    <p>A modern, intuitive e-commerce. The initial site was completed within a week, with usability tests, feeback and adjustments made the following week.</p>
-                    <p>Testimonial: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                    <a href="https://brndsonparade.com"> Visit Site</a>
+                    <p>A modern, intuitive e-commerce. The initial site was completed within a week, with usability tests, feeback and adjustments made the following week. The site is optimised to encourage customers to subscribe to ongoing juice orders and multi-item purchases. <hr/>Testimonial from Bentley Deegan, Director of Brands on Parade: </p>
+                    <blockquote>Quote from Bentley...</blockquote>
+                    <a href="https://brndsonparade.com" rel="noopener noreferrer" target="_blank"> Visit the Site</a>
 
                 </div>
          
