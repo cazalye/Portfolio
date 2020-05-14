@@ -7,8 +7,8 @@ interface ProjectCardProps{
     more: string,
     gitLink?: string,
     gitIcon?: string,
-    siteLink: string,
-    siteIcon: string,
+    siteLink?: string,
+    siteIcon?: string,
     
 }
 class ProjectCards extends Component<ProjectCardProps,ProjectCardProps> {

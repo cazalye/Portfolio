@@ -8,7 +8,7 @@ class Projects extends Component {
             <div id="projects">
                 <ProjectCards
                     title="E-commerce"
-                    summary="An elegant online bottle shop, built with WooCommerce"
+                    summary="A modern online bottle shop, built with WooCommerce"
                     more="/ecommerce"
                     siteLink= "https://brandsonparade.com"
                     siteIcon= "fa fa-globe"
@@ -29,8 +29,8 @@ class Projects extends Component {
                     more="/portfolio"
                     gitLink= "https://github.com/cazalye/portfolio"
                     gitIcon= "fab fa-github"
-                    siteLink= "https://portfolio.cazalye.com"
-                    siteIcon= "fa fa-globe"
+                    // siteLink= "https://portfolio.cazalye.com"
+                    // siteIcon= "fa fa-globe"
                 />
             </div>
         );
