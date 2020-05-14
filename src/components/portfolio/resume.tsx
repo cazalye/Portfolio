@@ -14,12 +14,12 @@ class Resume extends Component {
                 <Grid className="resume-grid">
                     <Cell className="resume-col resume-left-col" col={4}> 
                         <h1>A designer who codes</h1>
-                        <h2>I create evocative travel blogs, catchy copy and enticing e-commerce sites. <hr/>
-                            My work centers around modern, intuitive, responsive designs that inspire users.  <hr/>
-                            I have a background in Data Science where I specialised in Big Data Analytics.<hr/>
-                            I now combine these analytical skills and my strong attention to detail with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish. 
-                           <hr/>
-                            I'm passionate about photography, travel and inspiring others.<hr/>
+                        <h2>
+                            {/* I create evocative websites with catchy copy, that center around intuitive, responsive designs and inspire users.  <hr/> */}
+                            I have a background in Data Science, where I specialised in genetics research, particularly Big Data Analytics.<hr/>
+                            I now combine my analytical skills and strong attention to detail with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish. 
+                           {/* <hr/>
+                            I'm passionate about photography, travel and inspiring others.<hr/> */}
 
                         </h2>
                     </Cell>
@@ -28,54 +28,35 @@ class Resume extends Component {
                                 <Icon name="arrow_downward" />
                             </Tooltip>
                         <h2>Skills</h2>
+                        {/* <div className="scale">
+                            {/* <p>Scale</p> */}
+                            {/* <hr/> */}
+                        {/* </div>  */}
+
                         <Skills
                             skill="HTML / CSS (SASS)"
                             progress={80}
                         />
                         <Skills
                             skill="JavaScript / TypeScript"
-                            progress={40}
+                            progress={50}
                         />
                          <Skills
                             skill="React"
-                            progress={40}
+                            progress={50}
+                        />
+                         <Skills
+                            skill="Wordpress & WooCommerce"
+                            progress={80}
                         />
                          <Skills
                             skill="Git & Github"
-                            progress={60}
-                        />
-                        
-                        <Skills
-                            skill="Unix-based tools"
                             progress={70}
                         />
-                        <Skills
-                            skill="Big Data Analysis"
-                            progress={100}
-                        />
-                        <Skills
-                            skill="R"
-                            progress={100}
-                        />
-                        <Skills
-                            skill="Python"
-                            progress={20}
-                        />
-                        <Skills
-                            skill="Machine Learning"
-                            progress={10}
-                        />
-                        <Skills
-                            skill="Molecular Biology"
-                            progress={100}
-                        />
-                        <Skills
-                            skill="Statistics"
-                            progress={100}
-                        />
-                        <Skills
-                            skill="Project Management"
-                            progress={100}
+                        
+                         <Skills
+                            skill="Visual Studio Code, Sublime Text, Vim"
+                            progress={70}
                         />
                          <Skills
                             skill="Adobe Suite: Ps, Lr, Ai, Id, Xd"
@@ -83,7 +64,39 @@ class Resume extends Component {
                         />
                          <Skills
                             skill="Photography & Editing"
-                            progress={80}
+                            progress={60}
+                        />
+                        <Skills
+                            skill="Unix-based tools"
+                            progress={60}
+                        />
+                        <Skills
+                            skill="Big Data Analysis"
+                            progress={85}
+                        />
+                        <Skills
+                            skill="R"
+                            progress={85}
+                        />
+                        <Skills
+                            skill="Python"
+                            progress={20}
+                        />
+                        <Skills
+                            skill="Machine Learning"
+                            progress={20}
+                        />
+                        <Skills
+                            skill="Statistics"
+                            progress={85}
+                        />
+                        <Skills
+                            skill="Project Management"
+                            progress={85}
+                        />
+                        <Skills
+                            skill="Molecular Biology"
+                            progress={100}
                         />
                         <hr/>
                          <h2>Experience</h2>
