@@ -5,9 +5,8 @@
     text-align: left;
     position: fixed;
     bottom: 5px;
-    // left:10px;
     left:50px;
-    z-index: 6;
+    z-index: 8;
     i{
         // color: black;
         color:white;
@@ -17,5 +16,40 @@
         padding-bottom:10px;
     }
 } 
+
+
+// -- Responsive Design --
+// PHONE: 0-768 
+@media (max-width: 768px) {
+    .footer-links{
+        position: fixed;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        i{
+            margin-left: 0px;
+            margin-right: 0px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+}
+
+// TABLET: 768-1025 
+@media (min-width: 768px) and (max-width: 1025px){
+    .footer-links{
+        position: fixed;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        i{
+            margin-left: 0px;
+            margin-right: 0px;
+            font-size: 34px;
+            font-weight: bold;
+            padding-right: 60px;
+        }
+    }
+}
 
 

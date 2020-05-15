@@ -45,3 +45,56 @@
         }
     }
 }
+
+
+
+// Responsive Design
+// PHONE: 0-768 
+@media (max-width: 768px) {
+    .contact-background{
+        .contact-content{
+            margin-right: 6%;
+            margin-top: 20%;
+            h1{
+                font-size: 30px;
+            }
+            hr{
+                width: 270px;
+                width: 150px;
+                width: 240px;
+                margin-top: 10px;
+                // margin-bottom: 30px;
+            }
+            h5{
+                font-size: 18px;
+                color:#333;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+    
+// TABLET: 768-1025 
+@media (min-width: 768px) and (max-width: 1025px){
+    .contact-background{
+        .contact-content{
+            margin-right: 8%;
+            margin-top: 20%;
+            h1{
+                font-size: 60px;
+            }
+            hr{
+                width: 270px;
+                width: 150px;
+                width: 240px;
+                margin-top: 10px;
+                // margin-bottom: 30px;
+            }
+            h5{
+                font-size: 28px;
+                color:#333;
+                margin-top: 20px;
+            }
+        }
+    }
+}
