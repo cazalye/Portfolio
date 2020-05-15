@@ -146,14 +146,14 @@ class Resume extends Component {
                             jobName="Tertiary Level Teaching: University of Tasmania"
                             jobDescription="Throughout my PhD candidature I engaged in casual teaching roles
                             including tutoring, laboratory demonstrating and marking to Medicine, Science and Pharmacy students. I communicated
-                            complex scientific ideas, facilitated student discussion and learning."
+                            complex scientific ideas, and facilitated student discussion and learning."
                         />
                         <Experience
                             startYear={2009}
                             endYear={2011}
                             jobName="Assistant Manager: Flight Centre Ulverstone"
                             jobDescription="I tailored leisure and business travel for a range of
-                            clients, which required exceptional customer service, sales, product and destination
+                            clients, which required exceptional customer service, sales, and product and destination
                             knowledge. I consistently achieved excellent results though daily KPIs, mystery shopping, and monthly and annual targets. As assistant manager I was also responsible for
                             finances, planning, staff development, conflict resolution and customer
                             care."
@@ -226,6 +226,11 @@ class Resume extends Component {
                         <Awards
                             year="2004"
                             awardTitle="Dean's Roll of Excellence"
+                            awardAmount=""
+                        />
+                        <Awards
+                            year="2004"
+                            awardTitle="Golden Key International Honour Society"
                             awardAmount=""
                         />
 
