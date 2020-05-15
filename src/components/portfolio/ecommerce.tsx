@@ -61,9 +61,9 @@ class Ecommerce extends Component {
                         <li>Site back up</li>
                     </ul>
                     <h3>The Results</h3>
-                    <p>A modern, intuitive e-commerce. The initial site was completed within a week, with usability tests, feeback and adjustments made the following week. The site is optimised to encourage customers to subscribe to ongoing juice orders and multi-item purchases. <hr/>Testimonial from Bentley Deegan, Director of Brands on Parade: </p>
+                    <p>A modern, intuitive e-commerce. The initial site was completed within a week, with usability tests, feeback and adjustments made the following week. The site is optimised to encourage customers to subscribe to ongoing juice orders and multi-item purchases. <hr/>Testimonial from Bentley Deegan, Co-Director of Brands on Parade: </p>
                     <blockquote>Quote from Bentley...</blockquote>
-                    <a href="https://brndsonparade.com" rel="noopener noreferrer" target="_blank"> Visit the Site</a>
+                    <a href="https://brandsonparade.com" rel="noopener noreferrer" target="_blank"> Visit the Site</a>
 
                 </div>
          
