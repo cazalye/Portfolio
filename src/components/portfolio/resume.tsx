@@ -13,11 +13,13 @@ class Resume extends Component {
         return(
                 <Grid className="resume-grid">
                     <Cell className="resume-col resume-left-col" col={4}> 
-                        <h1>A designer who codes</h1>
+                        <h1>A <br/>designer<br/> who<br/> codes</h1>
                         <h2>
+                            I'm a front-end React developer with a passion for photography and design. <hr/> I combine my analytical skills and strong attention to detail, honed from my career in data science, with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish. 
+ 
                             {/* I create evocative websites with catchy copy, that center around intuitive, responsive designs and inspire users.  <hr/> */}
-                            I have a background in Data Science, where I specialised in genetics research, particularly Big Data Analytics.<hr/>
-                            I now combine my analytical skills and strong attention to detail with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish. 
+                            {/* I have a background in Data Science, where I specialised in genetics research, particularly Big Data Analytics.<hr/> */}
+                            {/* I now combine my analytical skills and strong attention to detail with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish.  */}
                            {/* <hr/>
                             I'm passionate about photography, travel and inspiring others.<hr/> */}
 
