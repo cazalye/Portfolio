@@ -4,7 +4,7 @@
     // background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2),transparent), url("/img/Mountains.jpg");
     // background-image: url("/img/Brands.jpg");
     // background-size: cover;
-    background-color:$blue;
+    background-color:$accentBlue;
     height: 100%;
     width: 100%;
     // position: absolute;
@@ -109,7 +109,7 @@
             // text-decoration: underline;
         }
         h3{
-            color: $orange;
+            color: $accentOrange;
             font-size: 24px;
             margin: 0px;
             margin-left: 7%;
@@ -139,13 +139,13 @@
         position: absolute;
         top: 95%;
         left: 50%;
-        color:$orange;
+        color:$accentOrange;
         z-index: 8;
     }
     .project-content{
         z-index: 7;
         position: absolute;
-        background-color: $blue;
+        background-color: $accentBlue;
         height: auto;
         width: 93%;
         margin-left: 4%;
@@ -157,7 +157,7 @@
         // align-items: center;
         font-family: 'Open Sans';
         h3{
-            color: $orange;
+            color: $accentOrange;
             margin-top: 4%;
             padding-left: 7%;
             padding-right: 7%;
@@ -174,7 +174,7 @@
         }
         
         a{
-            color: $orange;
+            color: $accentOrange;
             padding-left: 7%;
             line-height: 52px;;
         }
@@ -184,5 +184,16 @@
             margin-right: 7%;
         }
     }
+}
+
+
+// Responsive Design
+// PHONE: 0-768 
+@media (max-width: 768px) {
+  
+}
+    
+// TABLET: 768-1025 
+@media (min-width: 768px) and (max-width: 1025px){
 
 }

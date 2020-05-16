@@ -17,7 +17,7 @@
         right: 2%;
         top: 12%;
         background-color: rgba(0,0,0,.3);
-        // background-color: $blue;
+        // background-color: $accentBlue;
     }
     .me-portrait{
         position: absolute;
@@ -68,3 +68,15 @@
         }
     }
 }
+
+// Responsive Design
+// PHONE: 0-768 
+@media (max-width: 768px) {
+  
+}
+    
+// TABLET: 768-1025 
+@media (min-width: 768px) and (max-width: 1025px){
+
+}
+

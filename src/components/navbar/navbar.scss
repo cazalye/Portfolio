@@ -2,11 +2,12 @@
 
 body .mdl-layout .mdl-layout__inner-container{
     // height: 8%;
+    // z-index:20;
     .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
         // background: rgba(255,255,255,1);  
         position: fixed;
         // right: 2.5%;
-        background-color: $blue;
+        background-color: $accentBlue;
         height: 8%;
         z-index: 10;
     }   
@@ -39,7 +40,7 @@ body .mdl-layout .mdl-layout__inner-container{
     }
     .mdl-layout__drawer{
         height: 100vh;
-        background-color: $blue;
+        background-color: $accentBlue;
         .mdl-layout-title{
             .header-title{
                 // display: none;
@@ -91,6 +92,11 @@ body .mdl-layout .mdl-layout__inner-container{
 // PHONE: 0-768 
 @media (max-width: 768px) {
     body .mdl-layout .mdl-layout__inner-container {
+        z-index: 8;
+        height: 100%;
+        .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
+            height: 15%; 
+        }
         .mdl-layout__drawer{
             position: absolute;
             padding-top: 5%;
