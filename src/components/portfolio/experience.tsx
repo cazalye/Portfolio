@@ -16,7 +16,7 @@ interface ExperienceProps {
 class Experience extends Component<ExperienceProps, ExperienceProps>{
     render() {
         return(
-            <Grid className='experience-year'>
+            <Grid className='resume'>
                 <Cell col={4}>
                     <p>{this.props.startYear} - {this.props.endYear}</p>
                 </Cell>

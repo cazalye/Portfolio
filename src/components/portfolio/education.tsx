@@ -12,7 +12,7 @@ certificateUrl?: string;
 class Education extends Component<EducationProps, EducationProps> {
     render() {
         return(
-            <Grid className='education-year'>
+            <Grid className='resume'>
                 <Cell col={4}>
                     <p>{this.props.startYear} - {this.props.endYear}</p>
                 </Cell>

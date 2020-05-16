@@ -9,7 +9,7 @@ interface AwardProps{
 class Awards extends Component<AwardProps, AwardProps> {
     render() {
         return(
-            <Grid className='award-year'>
+            <Grid className='resume'>
                 <Cell col={4}>
                     <p>{this.props.year}</p>
                 </Cell>

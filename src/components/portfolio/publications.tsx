@@ -10,7 +10,7 @@ interface PublicationProps{
 class Publications extends Component<PublicationProps, PublicationProps> {
     render() {
         return(
-            <Grid className='publication-year'>
+            <Grid className='publications'>
                 <Cell col={4}>
                     <p>{this.props.publicationYear}</p>
                 </Cell>
