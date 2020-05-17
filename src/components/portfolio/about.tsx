@@ -10,8 +10,8 @@ class About extends Component {
                     <img className="me-portrait" src="/img/me_portrait_faded.jpg" height="600px" width="auto" alt="portrait of me"/>
                 </div>
                 <div className="aboutme-text">
-                    <h2>I'm a designer and front-end developer with a passion for photography and a background in data science. </h2>
-                    <p>I create evocative websites with catchy copy, that center around intuitive, responsive design. I have a solid knowledge of the entire web development process and leverage my analytical skills and strong attention to detail to deliver highly effective, pixel perfect web solutions. I build new websites from start to finish including: </p>
+                    <h2>I'm a front-end React developer with a passion for photography and design.</h2>
+                    <p>I combine my analytical skills and strong attention to detail, honed from my career in data science, with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish. </p>
                         <ul>
                             <li> Discussing vision, scope and style with clients</li>
                             <li> Web Design including wireframing and prototyping</li>
