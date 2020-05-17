@@ -12,7 +12,7 @@ interface ReferenceProps{
 class References extends Component<ReferenceProps, ReferenceProps> {
     render() {
         return (
-            <Grid className="resume">
+            <Grid className="reference">
                 <Cell col={7}>
                     <h5>{this.props.Name}</h5>
                 </Cell>

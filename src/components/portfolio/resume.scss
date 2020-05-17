@@ -78,6 +78,16 @@
     height: calc(100% - 65px);
     width: 66.6667%;
     overflow-y: scroll;
+    h1{
+      font-family: 'Open Sans';
+      font-weight: 100;
+      color: $accentOrange;
+      font-size: 3.6vw;
+      line-height: 3.9vw;
+      padding-bottom: 10px;
+      text-align: left;
+      margin-top: 0px;
+    }
     h2{
       font-family: 'Open Sans';
       font-weight: 100;
@@ -86,7 +96,7 @@
       // color: rgba(251, 144, 115, 1); 
       color: $accentOrange;
       padding-top: 0px;
-      margin-top: 10px;
+      margin-top: 3%;
       padding-bottom: 20px;
     }
     h4{
@@ -152,17 +162,37 @@
         font-size: 1.1vw;
         line-height: 1.8vw;
         color:white;
+        font-weight: 100;
+        font-family: 'Open Sans';
+        // text-decoration: none;
+      }
+    }
+    .reference{
+      p{
+        text-align: left;
+        font-size: 1.1vw;
+        line-height: 0px;
+        margin-top: 10%;
       }
     }
     .resume{
+      h4{
+        margin-top: 10px;
+        margin-bottom: 0px;
+      }
+      h5{
+        margin: 0px;
+      }
       p{
         text-align: left;
         font-size: 1.1vw;
         line-height: 1.8vw;
+        margin-top: 2%;
       }
       a{
         font-size: 1.1vw;
-        line-height: 1.8vw;
+        // line-height: 1.8vw;
+        margin-top: 2%;
       }
     }  
   }

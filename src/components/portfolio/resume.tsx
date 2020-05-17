@@ -29,7 +29,7 @@ class Resume extends Component {
                             <Tooltip className="arrow-tooltip" label="Scroll Down" position="bottom">
                                 <Icon name="arrow_downward" />
                             </Tooltip>
-                        <h2>Skills</h2>
+                        <h1>Skills</h1>
                         {/* <div className="scale">
                             {/* <p>Scale</p> */}
                             {/* <hr/> */}
@@ -155,8 +155,7 @@ class Resume extends Component {
                             endYear={2011}
                             jobName="Assistant Manager: Flight Centre Ulverstone"
                             jobDescription="I tailored leisure and business travel for a range of
-                            clients, which required exceptional customer service, sales, and product and destination
-                            knowledge. I consistently achieved excellent results though daily KPIs, mystery shopping, and monthly and annual targets. As assistant manager I was also responsible for
+                            clients, which required exceptional customer service, sales, and product knowledge. I consistently achieved excellent results though daily KPIs, mystery shopping, and monthly and annual targets. As assistant manager I was also responsible for
                             finances, planning, staff development, conflict resolution and customer
                             care."
                         />
@@ -207,6 +206,17 @@ class Resume extends Component {
 
                         <hr/>
                         <h2>Awards</h2>
+                       
+                        <Awards
+                            year="2019"
+                            awardTitle="Institute for Molecular Medicine Finland: Young Investigator of the Month"
+                            awardAmount=""
+                        />
+                        <Awards
+                            year="2017"
+                            awardTitle="Menzies Institute for Medical Research: Ten of the Best"
+                            awardAmount="1,000 AUD"
+                        />
                         <Awards
                             year="2014 - 2016" 
                             awardTitle="Cancer Auxiliary
