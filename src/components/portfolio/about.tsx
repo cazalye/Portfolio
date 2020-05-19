@@ -6,11 +6,12 @@ class About extends Component {
     render() {
         return(
             <div className="aboutme-background">
-                <div className="aboutme-image"> 
+                <div className="aboutme-image-background"> 
                     <img className="me-portrait" src="/img/me_portrait_faded.jpg" height="600px" width="auto" alt="portrait of me"/>
                 </div>
                 <div className="aboutme-text">
-                    <h2>I'm a front-end React developer with a passion for photography and design.</h2>
+                    <h2 className="title-long">I'm a front-end React developer with a passion for photography and design.</h2>
+                    <h2 className="title-short">A <br/>designer <br/>who <br/> codes</h2>
                     <p>I combine my analytical skills and strong attention to detail, honed from my career in data science, with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish. </p>
                         <ul>
                             <li> Discussing vision, scope and style with clients</li>
