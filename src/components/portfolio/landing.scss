@@ -53,7 +53,7 @@
 @media (max-width: 768px) {
 .landing {
     .job-title {
-        top: 13%;
+        top: 12%;
         h1{
             font-size: 30px;
             margin-bottom: 0px;
@@ -68,9 +68,10 @@
         }
         p{
             font-size: 10px; 
+            line-height: 20px;
             margin-right: 6%;
             margin-top: 5px;
-            margin-left: 3%;
+            margin-left: 30px;
         }
     }
 }
