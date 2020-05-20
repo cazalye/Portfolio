@@ -8,7 +8,7 @@ import Resume from './portfolio/resume';
 import Projects from './portfolio/projects';
 import Ecommerce from './portfolio/ecommerce';
 import TravelBlog from './portfolio/travelBlog';
-import Portfolio from './portfolio/portfolio';
+import Portfolio from './portfolio/portfolioProject';
 
 
 
