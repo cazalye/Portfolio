@@ -7,10 +7,10 @@
     width: 100%;
     position: fixed;
     .project-cards{
-        height: 30%;
+        height: 55%;
         width:20%;
         position: relative;
-        top: 13%;
+        top: 10%;
         left: 17%;
         background-color: $transparentOrange;
         display: inline-flex;
@@ -21,7 +21,7 @@
         box-shadow: 5px 5px 5px #ccc;
         .content{
             display: inline;
-            // padding: 20px;
+            // padding: 20px; 
             width: 100%;
             text-align: center;
             font-family: "Open Sans";
@@ -30,6 +30,7 @@
                 font-size: 2.4vw;
                 font-family: "Open Sans";
                 margin-top: 3%;
+                color: black;
             }
             p{
                 text-align: center;
@@ -39,11 +40,16 @@
                 font-size: 1.2vw;
                 line-height: 1.8vw;
                 font-weight: 100;
+                color: black;
             }
             .project-link{
                 color: black;
                 display: block;
                 margin-top: 5%;
+                text-decoration: none;
+            }
+            a:hover{
+                opacity: .8;
             }
             i{
                 // padding: 3%;
