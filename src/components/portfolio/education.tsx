@@ -19,7 +19,10 @@ class Education extends Component<EducationProps, EducationProps> {
                 <Cell col={8}>
                     <h4>{this.props.schoolName}</h4>
                     <p>{this.props.schoolDescription}</p>
-                    <a href={this.props.certificateUrl} target="_blank" rel="noopener noreferrer">{this.props.certificate}</a>
+                    <a href={this.props.certificateUrl} target="_blank" rel="noopener noreferrer">
+                        {this.props.certificate}
+                        <i className='fas fa-external-link-alt' aria-hidden="true"/>
+                    </a>
                 </Cell>
             </Grid>
         )

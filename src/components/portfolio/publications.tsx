@@ -16,7 +16,10 @@ class Publications extends Component<PublicationProps, PublicationProps> {
                 </Cell>
                 <Cell col={8}>
                     <h4>{this.props.publicationJournal}</h4>
-                    <a href={this.props.publicationLink} target="_blank" rel="noopener noreferrer">{this.props.publicationTitle}</a>
+                    <a href={this.props.publicationLink} target="_blank" rel="noopener noreferrer">
+                        {this.props.publicationTitle}
+                        <i className='fas fa-external-link-alt' aria-hidden="true"/>
+                        </a>
                 </Cell>
             </Grid>
         )
