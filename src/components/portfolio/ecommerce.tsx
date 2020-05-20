@@ -10,7 +10,7 @@ class Ecommerce extends Component {
         return (
             <div id="project-details">
                 <div className="feature-image">
-                    <img src="/img/Brands.jpg" height="auto" width="100%" alt="brands on parade"/>
+                    <img src="/img/Brands_80.jpg" height="auto" width="100%" alt="brands on parade"/>
                     {/* <img className="brands" src="/img/The Boys-8.jpg" height="auto" width="100%" alt="brands on parade"/> */}
                 </div>
                 {/* <Breadcrumbs maxItems={4} aria-label="breadcrumb" className="breadcrumbs">
@@ -22,16 +22,17 @@ class Ecommerce extends Component {
                         </Link>
                     </Breadcrumbs> */}
                 <div className="project-summary"> 
-                    <h2>E-commerce: Online Bottle Shop </h2>
-                    {/* <h2 className="sub-header">Brands on Parade Online Bottle Shop</h2> */}
-                    <h3>Client</h3>
-                    <p>Brands on Parade</p>
+                    <h2>Brands on Parade</h2>
+                    <p className="sub-header">Online Bottle Shop</p>
                     <h3>Date</h3>
                     <p>April 2020</p>
                     <h3>My Role</h3>
                     <p>Product & Marketing Photography, Design & WooCommerce Customisation, Hosting & Deployment, Product Listings, UX & Usability Testing</p>
                     <h3>Check it out</h3>
-                    <a href="https://brandsonparade.com" rel="noopener noreferrer" target="_blank"> Launch Site</a>
+                    <a href="https://brandsonparade.com" rel="noopener noreferrer" target="_blank"> 
+                        Launch Site
+                        <i className='fas fa-external-link-alt' aria-hidden="true"/>
+                    </a>
                 </div>
                 
                 <Tooltip className="arrow-tooltip" label="Scroll Down" position="bottom">
@@ -63,7 +64,10 @@ class Ecommerce extends Component {
                     <h3>The Results</h3>
                     <p>A modern, intuitive e-commerce. The initial site was completed within a week, with usability tests, feeback and adjustments made the following week. The site is optimised to encourage customers to subscribe to ongoing juice orders and multi-item purchases. <hr/>Testimonial from Bentley Deegan, Co-Director of Brands on Parade: </p>
                     <blockquote>Quote from Bentley...</blockquote>
-                    <a href="https://brandsonparade.com" rel="noopener noreferrer" target="_blank"> Visit the Site</a>
+                    <a href="https://brandsonparade.com" rel="noopener noreferrer" target="_blank"> 
+                        Visit the Site
+                        <i className='fas fa-external-link-alt' aria-hidden="true"/>
+                    </a>
 
                 </div>
          
