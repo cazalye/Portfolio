@@ -10,6 +10,12 @@ class Navbar extends Component<any, any> {
             selectorId.MaterialLayout.toggleDrawer();
         }
     }
+    // opaque() {
+    //     const 
+    // }
+
+
+
     render() {
         return (
             <Layout>
@@ -22,15 +28,17 @@ class Navbar extends Component<any, any> {
                         <Link to="/contact">Contact</Link>
                     </Navigation>
                 </Header>
-                <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">cazalye</Link> as any}>
-                    <Navigation className="drawer-nav" >
-                        <Link onClick={() => this.hideToggle()} to="/resume">Resume</Link> 
-                        <Link onClick={() => this.hideToggle()} to="/projects">Projects</Link>
-                        {/* <Link onClick={() => this.hideToggle()} to="/photography">Photography</Link> */}
-                        <Link onClick={() => this.hideToggle()} to="/about">About</Link>
-                        <Link onClick={() => this.hideToggle()}to="/contact">Contact</Link>
-                    </Navigation>
-                </Drawer>
+                {/* <div onScroll={e => {this.opaque();}} className="opaque-nav"> */}
+                    <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">cazalye</Link> as any}>
+                        <Navigation className="drawer-nav" >
+                            <Link onClick={() => this.hideToggle()} to="/resume">Resume</Link> 
+                            <Link onClick={() => this.hideToggle()} to="/projects">Projects</Link>
+                            {/* <Link onClick={() => this.hideToggle()} to="/photography">Photography</Link> */}
+                            <Link onClick={() => this.hideToggle()} to="/about">About</Link>
+                            <Link onClick={() => this.hideToggle()}to="/contact">Contact</Link>
+                        </Navigation>
+                    </Drawer>
+                {/* </div> */}
             </Layout>
         );
     }
