@@ -5,6 +5,8 @@ interface ProjectCardProps{
     title: string, 
     summary: string,
     more: string,
+
+    image: string,
     gitLink?: string,
     gitIcon?: string,
     siteLink?: string,
@@ -20,6 +22,9 @@ class ProjectCards extends Component<ProjectCardProps,ProjectCardProps> {
             <div className="project-cards">
                 <div className="content">
                    
+                    <div className="project-image">
+                        <img src={this.props.image} height="" width="350px" alt="project image"/>
+                    </div>
                     <Link className="project-link" to={this.props.more}>
                     <h2>{this.props.title}</h2>
                     <p>{this.props.summary}</p>

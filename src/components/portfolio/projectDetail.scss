@@ -10,26 +10,26 @@
     // position: absolute;
     overflow-x: hidden;
     overflow-y: scroll;
-    .breadcrumbs{
-        z-index: 10;
-        position: absolute;
-        top:7%;
-        left: 20px;
-        color: #444;
-        // color: red;
-        a{
-            color: #444;
-            color: #555;
-            // color: red;
-        }
-        a:hover{
-            color:#888;
-        }
-        .current-page{
-            color: #777;
-            color: $lightGreen;
-        }
-    }
+    // .breadcrumbs{
+    //     z-index: 10;
+    //     position: absolute;
+    //     top:7%;
+    //     left: 20px;
+    //     color: #444;
+    //     // color: red;
+    //     a{
+    //         color: #444;
+    //         color: #555;
+    //         // color: red;
+    //     }
+    //     a:hover{
+    //         color:#888;
+    //     }
+    //     .current-page{
+    //         color: #777;
+    //         color: $lightGreen;
+    //     }
+    // }
     .image-overlay-travel{
         // background: linear-gradient(to right, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.01), transparent);
         background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 20%,rgba(255, 255, 255, 0.05) 25%, transparent 30%);
@@ -50,41 +50,6 @@
         // top:10%;
         padding-top: 1%;
         // left:5%;
-    }
-    .job-title {
-        margin-top: 7%;
-        z-index: 3;
-        position: fixed;
-        right: 3%;
-        width: 50%;
-        h1{
-            font-family: 'Open Sans';
-            color: black;
-            font-weight: 100;
-            font-size: 71px;
-            text-align: right;
-            margin-bottom: 5px;
-            margin-right: 7%;
-        }
-        h2{
-            font-family: 'Open Sans';
-            font-size: 30px;
-            font-weight: 400;
-            color: #222;
-            text-align: right;
-            margin-right: 7%;
-            margin-bottom: 0px;
-            margin-top: 0px;
-        }
-        p{
-            font-family: 'Open Sans';
-            color: black;
-            font-size: 16px; 
-            font-weight: 100;
-            text-align: right;
-            margin-right: 7%;
-            margin-top: 5px;
-        }
     }
     .project-summary{
         z-index: 2;
@@ -226,7 +191,115 @@
 // Responsive Design
 // PHONE: 0-768 
 @media (max-width: 768px) {
-  
+    #project-details{
+        background-color:$accentBlue;
+        position: absolute;
+        overflow-y: scroll;
+        height: auto;
+        top: 11%;
+        .image-overlay-travel{
+        }
+        .image-overlay-portfolio{
+        }
+        .feature-image{
+            position: relative;
+            padding: 0%;
+            margin: 0%;
+        }
+        .project-summary{
+            z-index: 8;
+            position: relative;
+            top: 0%;
+            margin: 0%;
+            padding-left: 1%;
+            height: 60vh;
+            width: 100%;
+            background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0, 0.8) 17%, rgba(0,0,0, 0.7) 25%);
+            overflow-y: scroll;
+            h2{
+                font-size: 30px;
+                line-height: 36px;
+                text-align: left;
+                margin-left: 5%;
+                margin-top: 3%;
+            }
+            .sub-header{
+                margin-bottom: 7%;
+                margin-top: .5%;
+            }
+            h3{
+                font-size: 16px;
+                line-height: 26px;
+                margin: 0px;
+                margin-left: 5%;
+                margin-top: 0%;
+            }
+            p{
+                font-size: 12px;
+                line-height: 22px;;
+                margin-left: 5%;
+                padding-right: 10%;
+            }
+            a{
+                font-size: 12px;
+                line-height: 22px;
+                margin-left: 5%;
+            }
+            i{
+                padding-left: 10px;
+            }
+        }
+        .arrow-tooltip{
+          display:none;
+          i{
+              display: none;
+          }
+        }
+        .project-content{
+            z-index: 8;
+            position: relative;
+            height: auto;
+            width: 100%;
+            margin-left: 5%;
+            margin-right: 5%;
+            h3{
+                margin-top: 4%;
+                padding-left: 0%;
+                margin-bottom: 1%;
+                font-weight: bold;
+            }
+            p{
+                padding-left: 0%;
+                margin-right: 3%;
+                text-align: left;
+                font-size: 14px;
+                line-height: 24px;
+            }
+            ul{
+                padding-left: 10%;
+                padding-right: 10%;
+                color:black;
+                font-size: 14px;
+                line-height: 24px;
+            }
+            a{
+                padding-left: 0%;
+                font-size: 14px;
+                line-height: 52px;
+                color: $accentOrange;
+                i{
+                    padding-left: 10px;
+                }
+            }
+            blockquote{
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 7%;
+                margin-right: 7%;
+                font-size: 22px;
+            }
+        }
+    }
 }
     
 // TABLET: 768-1025 
