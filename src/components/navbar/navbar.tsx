@@ -10,6 +10,8 @@ class Navbar extends Component<any, any> {
             selectorId.MaterialLayout.toggleDrawer();
         }
     }
+
+    // Make the navbar opaque on scroll
     // opaque() {
     //     const 
     // }
@@ -19,6 +21,7 @@ class Navbar extends Component<any, any> {
     render() {
         return (
             <Layout>
+                {/* <div onScroll={e => {this.opaque();}} className="opaque-nav"> */}
                 <Header transparent={true} title={<Link to="/" className="header-title">cazalye </Link>}>
                     <Navigation className="header-nav">
                         <Link to="/resume">Resume</Link> 
@@ -28,7 +31,6 @@ class Navbar extends Component<any, any> {
                         <Link to="/contact">Contact</Link>
                     </Navigation>
                 </Header>
-                {/* <div onScroll={e => {this.opaque();}} className="opaque-nav"> */}
                     <Drawer title={<Link onClick={() => this.hideToggle()} to="/" className="header-title">cazalye</Link> as any}>
                         <Navigation className="drawer-nav" >
                             <Link onClick={() => this.hideToggle()} to="/resume">Resume</Link> 

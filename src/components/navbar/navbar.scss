@@ -6,6 +6,7 @@ body .mdl-layout .mdl-layout__inner-container{
     .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
         position: fixed;
         background-color: $accentBlue;
+        background-color: transparent;
         height: 8%;
         z-index: 10;
     }   
@@ -34,7 +35,7 @@ body .mdl-layout .mdl-layout__inner-container{
 // PHONE: 0-768 
 @media (max-width: 768px) {
     body .mdl-layout .mdl-layout__inner-container {
-        z-index: 8;
+        z-index: 7;
         height: 904%;
         position: fixed;
         .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
