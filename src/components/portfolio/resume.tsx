@@ -47,14 +47,14 @@ class Resume extends Component {
 
                         <Skills
                             skill="HTML / CSS (SASS)"
-                            progress={80}
+                            progress={85}
                         />
                         <Skills
                             skill="JavaScript / TypeScript"
                             progress={50}
                         />
                          <Skills
-                            skill="React"
+                            skill="React.js"
                             progress={50}
                         />
                          <Skills
@@ -63,32 +63,32 @@ class Resume extends Component {
                         />
                          <Skills
                             skill="Git & Github"
-                            progress={70}
+                            progress={80}
                         />
                         
                          <Skills
                             skill="Visual Studio Code, Sublime Text, Vim"
-                            progress={70}
+                            progress={80}
                         />
                          <Skills
                             skill="Adobe Suite: Ps, Lr, Ai, Id, Xd"
-                            progress={60}
+                            progress={80}
                         />
-                         <Skills
+                         {/* <Skills
                             skill="Photography & Editing"
-                            progress={60}
-                        />
+                            progress={85}
+                        /> */}
                         <Skills
                             skill="Unix-based tools"
-                            progress={60}
+                            progress={80}
                         />
                         <Skills
                             skill="Big Data Analysis"
-                            progress={85}
+                            progress={95}
                         />
                         <Skills
                             skill="R"
-                            progress={85}
+                            progress={95}
                         />
                         <Skills
                             skill="Python"
@@ -100,7 +100,7 @@ class Resume extends Component {
                         />
                         <Skills
                             skill="Statistics"
-                            progress={85}
+                            progress={95}
                         />
                         <Skills
                             skill="Project Management"
