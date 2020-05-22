@@ -11,17 +11,12 @@ class Navbar extends Component<any, any> {
         }
     }
 
-    // Make the navbar opaque on scroll
-    // opaque() {
-    //     const 
-    // }
 
 
 
     render() {
         return (
             <Layout>
-                {/* <div onScroll={e => {this.opaque();}} className="opaque-nav"> */}
                 <Header transparent={true} title={<Link to="/" className="header-title">cazalye </Link>}>
                     <Navigation className="header-nav">
                         <Link to="/resume">Resume</Link> 
@@ -40,7 +35,7 @@ class Navbar extends Component<any, any> {
                             <Link onClick={() => this.hideToggle()}to="/contact">Contact</Link>
                         </Navigation>
                     </Drawer>
-                {/* </div> */}
+                
             </Layout>
         );
     }
