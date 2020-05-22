@@ -13,7 +13,7 @@ body .mdl-layout .mdl-layout__inner-container{
     .mdl-navigation__link{
         position: relative;
         color: black;
-        font-size: 18px;
+        font-size: 1.2vw;
         font-family: 'Open Sans', sans-serif;
         font-weight: 100;
         padding-left: 40px;
@@ -37,77 +37,89 @@ body .mdl-layout .mdl-layout__inner-container{
 // Responsive Design
 // PHONE: 0-768 
 @media (max-width: 768px) {
-    body .mdl-layout .mdl-layout__inner-container {
-        // z-index: 10;
-        // height: 904%;
-        position: absolute;
-        .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
-            background-color: transparent;
-            // background-color: $accentBlue;
-            height: 8%;
-            // z-index: 10;
-            position: absolute;
-        } 
-        .mdl-layout__header-row{
-            padding: 0px;
-        }
-        .mdl-layout__header{
-            display:block;
-            z-index: 10;
-            
-            .header-title{
-                position: absolute;
-                padding-left: 0px;
-                font-size: 38px;
-                line-height: 0px;
-                left: 20px;
-                top: 9px;
-            }
-            .header-nav{
-                display:none;
-            }
-        }         
-        .mdl-layout__drawer-button{
-            display: block;
-            position: absolute;
-            color: black;
-            z-index: 10;
-            left: auto;
-            right: 0px;
-            top: 10px;
-            margin: 8px 12px;
-            cursor: pointer;
-            i{
-                font-size: 10vw;   
-            }
-        } 
-        .mdl-layout__drawer{
-            z-index: 11;
-            height: 100%;
-            // background-color: $accentBlue;
-            background-color: $fadedBlue;
-            // background-color: white;
-            .mdl-layout-title{
-                .header-title{
-                    position: fixed;
-                    font-family: "Quentin";
-                    font-size: 38px;
-                    line-height: 48px;
-                    text-decoration: none;
-                    padding-left: 0px;
-                    left: 20px;
-                    top: 10px;
+    body{
+        .App.scrolled{
+            .mdl-layout .mdl-layout__inner-container {
+                .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
+                    background-color: $accentOrange;
                 }
             }
-        }   
-        .drawer-nav{
-            .mdl-navigation__link{
-                position: relative;
-                top: 80px;
+        }
+        .mdl-layout .mdl-layout__inner-container {
+            z-index: 10;
+            // height: 904%;
+            position: absolute;
+            .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
+                background-color: transparent;
+                transition: background-color .5s ease-in;
+                // background-color: $accentBlue;
+                height: 8%;
+                // z-index: 10;
+                position: absolute;
+                position: fixed;
+            } 
+            .mdl-layout__header-row{
+                padding: 0px;
+            }
+            .mdl-layout__header{
+                display:block;
+                z-index: 10;
+                
+                .header-title{
+                    position: absolute;
+                    padding-left: 0px;
+                    font-size: 38px;
+                    line-height: 0px;
+                    left: 20px;
+                    top: 9px;
+                }
+                .header-nav{
+                    display:none;
+                }
+            }         
+            .mdl-layout__drawer-button{
+                display: block;
+                position: absolute;
+                position: fixed;
                 color: black;
-                font-size: 18px;
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 100;
+                z-index: 10;
+                left: auto;
+                right: 0px;
+                top: 10px;
+                margin: 8px 12px;
+                cursor: pointer;
+                i{
+                    font-size: 10vw;   
+                }
+            } 
+            .mdl-layout__drawer{
+                z-index: 11;
+                height: 100%;
+                // background-color: $accentBlue;
+                background-color: $fadedBlue;
+                // background-color: white;
+                .mdl-layout-title{
+                    .header-title{
+                        position: fixed;
+                        font-family: "Quentin";
+                        font-size: 38px;
+                        line-height: 48px;
+                        text-decoration: none;
+                        padding-left: 0px;
+                        left: 20px;
+                        top: 10px;
+                    }
+                }
+            }   
+            .drawer-nav{
+                .mdl-navigation__link{
+                    position: relative;
+                    top: 80px;
+                    color: black;
+                    font-size: 18px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 100;
+                }
             }
         }
     }

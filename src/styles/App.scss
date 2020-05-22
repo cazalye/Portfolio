@@ -11,6 +11,9 @@
   src: url("/fonts/WildYouth/WildYouth-Regular.otf") format("opentype"),
 }
 
+body{
+  overflow-y: hidden;
+}
 
 body h2{  
   font-family: 'Open Sans', sans-serif;
@@ -36,6 +39,9 @@ body p{
 .App {
   font-size: calc(10px + 2vmin);
   color: white;
+  height: 100vh;
+  overflow-y: scroll;
+  position: relative;
 }
 
 .App-logo {

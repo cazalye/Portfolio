@@ -7,9 +7,30 @@ import { withRouter } from "react-router";
 
 class App extends Component<any,any> {
 
+  state = {
+    navbarClass: "scroll-top"
+  }
+
+  navbarScrollStyle() {
+    const appDiv: any = document.getElementsByClassName("App");
+    if (appDiv.length) {
+        const position = appDiv[0].scrollTop;
+        if (position > 100 && this.state.navbarClass === "scroll-top") {
+          this.setState({
+            navbarClass: "scrolled"
+          });
+        }
+        if (position <= 100 && this.state.navbarClass !== "scroll-top") {
+          this.setState({
+            navbarClass: "scroll-top"
+          });
+        }
+    }
+  }
+
   render() {  
     return (
-      <div className="App">
+      <div onScroll={e => {this.navbarScrollStyle();}} className={`App ${this.state.navbarClass}`}>
           <Navbar/>
           <View/>
           <Footer/>
