@@ -18,15 +18,14 @@
       bottom: 0px;
     }
     .resume-left-col{
+      position: relative;
       height: auto;
-      height: calc(100% - 65px);
-      padding-top: 1em;
-      padding-right: 1.5em;
-      padding-left: 1.5em;
+      // height: calc(100% - 65px);
+      padding: 1.5em;
+      padding-top: 4em;
       background: linear-gradient(to bottom, rgba(251, 144, 115, .3),rgba(251, 144, 115, .6), rgba(251, 144, 115, .7));
-      margin-top: 64px;
-      margin-left: 0px;
-      margin-right: 0px;
+      // margin-top: 64px;
+      margin: 0px;
       border-radius: 3px;
       width: 33.3333%;
       h1{
@@ -59,16 +58,18 @@
     display: none;
   }
   .resume-right-col {
+    position: relative;
+    overflow-y: scroll;
+    // height: auto;
+    height: 100%;
+    width: 66.6667%;
+    // background: linear-gradient(182deg, rgba(0,0,0, 0.4) 6%,rgba(0,0,0, 0.8) 10%, rgba(0,0,0, 0.8) 92%, rgba(0,0,0, 0.4)) 97%;
     background: linear-gradient(180deg, rgba(0,0,0,0.9) 80%,rgba(0,0,0, 0.8) 92%, rgba(0,0,0, 0.4)) 95%;
     color: white; 
-    padding: 2em;
-    padding-top: 1em;
-    margin-top: 64px;
-    margin-left: 0px;
-    margin-right: 0px;
-    height: calc(100% - 65px);
-    width: 66.6667%;
-    overflow-y: scroll;
+    padding: 1.5em;
+    padding-top: 4em;
+    margin: 0px;
+    // height: calc(100% - 65px);
     h1{
       font-family: 'Open Sans';
       font-weight: 100;
@@ -210,9 +211,6 @@
   .mdl-grid.resume-grid{
     position: absolute;
     z-index: 9;
-    // top: 10%;
-    // height: 100%;
-    // height: 200%;
     height: 202vh;
     .arrow-tooltip{
       display: inline-block;
@@ -226,16 +224,16 @@
     }
     .resume-left-col{
       position: relative;
-      height: 50%;
+      // height: 50%;
       height: 100vh;
       width: 100%;
       margin-top: 0px;
       margin-bottom: 0px;
       padding-bottom: 0px;
       h1{
-        font-size: 9.5vw;
-        line-height: 10.5vw;
-        padding-top: 25%;
+        font-size: 10vw;
+        line-height: 11vw;
+        padding-top: 10%;
         padding-bottom: 20px;
       }
       h2{
