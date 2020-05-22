@@ -9,6 +9,12 @@ import References from './references';
 import './resume.scss';
 
 class Resume extends Component {
+
+        // Make the navbar opaque on scroll
+    // opaque() {
+    //     const 
+    // }
+
     render() {
         return(
                 <Grid className="resume-grid">
@@ -26,6 +32,10 @@ class Resume extends Component {
                         </h2>
                     </Cell>
                     <Cell className="resume-col resume-right-col" col={8}>
+
+                {/* <div onScroll={e => {this.opaque();}} className="opaque-nav"> */}
+
+
                             <Tooltip className="arrow-tooltip" label="Scroll Down" position="bottom">
                                 <Icon name="arrow_downward" />
                             </Tooltip>
@@ -180,11 +190,11 @@ class Resume extends Component {
                         />
                         <hr/>
                          <h2>First author Publications</h2>
-                        <Publications
+                        {/* <Publications
                             publicationYear={2020}
                             publicationTitle="Associations of alcohol consumption with epigenome-wide DNA methylation and epigenetic age acceleration: Individual-level and co-twin comparison analyses (Under Review)"
                             publicationJournal="Alcoholism: Clinical and Experimental Research"
-                        />
+                        /> */}
                         <Publications
                             publicationYear={2019}
                             publicationTitle="Making Sense of the Epigenome Using Data Integration Approaches"

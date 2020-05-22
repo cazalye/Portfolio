@@ -17,8 +17,6 @@
       position: fixed;
       bottom: 0px;
     }
-
-
     .resume-left-col{
       height: auto;
       height: calc(100% - 65px);
@@ -164,11 +162,16 @@
       }
     }
     .reference{
+      h5{
+        color:$accentOrange;
+        padding-top: 0px;
+        margin-top: 0px;
+      }
       p{
         text-align: left;
-        font-size: 1.1vw;
-        line-height: 0px;
-        margin-top: 10%;
+        // font-size: 1.1vw;
+        line-height: 20px;
+        margin-top: 1%;
       }
     }
     .resume{
@@ -202,11 +205,11 @@
 
 
 // Responsive Design
-// PHONE: 0-768 
-@media (max-width: 768px) {
+// PHONE: 0-767 
+@media (max-width: 767px) {
   .mdl-grid.resume-grid{
     position: absolute;
-    z-index: 5;
+    z-index: 9;
     // top: 10%;
     // height: 100%;
     // height: 200%;
@@ -347,7 +350,6 @@
        
     }
     .reference{
-
       h5{
         margin-top: 10px;
         margin-bottom: 0px;
@@ -357,11 +359,10 @@
         font-weight: 100;
         font-family: 'Open sans';
       }
-      p{
+        p{
         font-size: 3.5vw;
-        line-height: 3.5vw;
+        // line-height: 3vw;
         margin-bottom: 2%;
-        margin-top: 0px;
       }
     }
   }
@@ -370,5 +371,151 @@
     
 // TABLET: 768-1025 
 @media (min-width: 768px) and (max-width: 1025px){
-
+  .mdl-grid.resume-grid{
+    overflow-y: scroll;
+    position: absolute;
+    .arrow-tooltip{
+      display: none
+      }
+      .mdl-cell .mdl-cell--12-col{
+        margin: 0px;
+      }
+    .resume-left-col{
+      position: relative;
+      height: 110vh;
+      width: 100%;
+      margin-top: 0%;
+      padding-top: 0%;
+      margin-bottom:0%;
+      h1{
+        padding-top: 18%;
+        padding-bottom: 50px;
+        font-size: 9vw;
+        line-height: 10vw;
+      }
+      line-height: 10vw;
+      h2{
+        font-size: 4vw;
+        line-height: 6.8vw;
+      }
+    }
+  .resume-left-col::-webkit-scrollbar {
+    display: none;
+  }
+  .mdl-cell .mdl-cell--8-col{
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .resume-right-col {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+    padding-bottom: 20%;
+    margin-top: 0%;
+    padding-top: 0%;
+    .material-icons{
+      font-size: 36px;
+      margin-left: -42px;
+      color: black;
+      opacity: 0.7;
+      z-index: 0;
+      display: none;
+    }
+    h1{
+      font-size: 9.5vw;
+      line-height: 10.5vw;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 4%;
+    }
+    h2{
+      font-size: 8vw;
+      line-height: 8vw;
+      padding-top: 0px;
+      margin-top: 2%;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      padding-left: 4%;
+    }
+    h4{
+      margin-top: 0px;
+      padding-bottom: 0px;
+      font-size: 4.5vw;
+      line-height: 6vw;
+    }
+    .resume-skill-progress {
+      width: 50%;
+    }
+    .resume-skill-col{
+      span {
+        width: 40%;
+        font-size: 3vw;
+        line-height: 4.3vw;
+        padding-right: 4%;
+      }  
+    }  
+    .resume{
+      h4{
+        margin-top: 10px;
+        font-size: 4vw;
+        line-height: 6vw;
+      }
+      h5{
+        margin-top: 10px;
+        font-size: 5vw;
+        line-height: 7.2vw;
+      }
+      p{
+        text-align: left;
+        font-size: 3vw;
+        line-height: 4.5vw;
+        margin-top: 1%;
+        margin-bottom: 2%;
+      }
+      a{
+        font-size: 3vw;
+        line-height: 4.5vw;
+        margin-top: 1%;
+      }
+    }  
+    .publications{
+        h4{
+          margin-top: 0px;
+          font-size: 4vw;
+          line-height: 6vw;
+        }
+        p{
+          font-size: 3vw;
+          line-height: 4.5vw;
+          margin-top: 0%;
+          margin-bottom: 0%;
+        }
+        a{
+          font-size: 3vw;
+          line-height: 4.5vw;
+          margin-top: 1%;
+          color:white;
+        }
+      }
+    }
+    .reference{
+      padding-top: 20px;
+      h5{
+        font-size: 4vw;
+        padding-bottom: 20px;
+        padding-right: 30px;
+        line-height: 4vw;
+        color: $accentOrange;
+        font-weight: 100;
+        font-family: 'Open sans';
+      }
+        p{
+        font-size: 18px;
+        // line-height: 5vw;
+        padding-bottom: 5px;
+        padding-top: 5px;
+      }
+    }
+  }
 }
