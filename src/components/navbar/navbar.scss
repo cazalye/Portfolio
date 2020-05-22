@@ -55,7 +55,7 @@ body .mdl-layout .mdl-layout__inner-container{
                 // background-color: $accentBlue;
                 height: 8%;
                 // z-index: 10;
-                position: absolute;
+                // position: absolute;
                 position: fixed;
             } 
             .mdl-layout__header-row{
@@ -71,7 +71,7 @@ body .mdl-layout .mdl-layout__inner-container{
                     font-size: 38px;
                     line-height: 0px;
                     left: 20px;
-                    top: 9px;
+                    top: 50%;
                 }
                 .header-nav{
                     display:none;
@@ -79,13 +79,13 @@ body .mdl-layout .mdl-layout__inner-container{
             }         
             .mdl-layout__drawer-button{
                 display: block;
-                position: absolute;
+                // position: absolute;
                 position: fixed;
                 color: black;
                 z-index: 10;
                 left: auto;
-                right: 0px;
-                top: 10px;
+                right: 10px;
+                // top: 50%;
                 margin: 8px 12px;
                 cursor: pointer;
                 i{
@@ -140,7 +140,7 @@ body .mdl-layout .mdl-layout__inner-container{
             }
             .header-nav{
                 .mdl-navigation__link{
-                    font-size: 24px;
+                    font-size: 1.6vw;
                     padding-left: 24px;
                     top: 30px;
                     

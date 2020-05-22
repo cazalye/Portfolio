@@ -372,8 +372,10 @@
 // TABLET: 768-1025 
 @media (min-width: 768px) and (max-width: 1025px){
   .mdl-grid.resume-grid{
-    overflow-y: scroll;
+    // overflow-y: scroll;
     position: absolute;
+    z-index: 9;
+    height: 202vh;
     .arrow-tooltip{
       display: none
       }
@@ -387,6 +389,7 @@
       margin-top: 0%;
       padding-top: 0%;
       margin-bottom:0%;
+      // overflow-y: auto;
       h1{
         padding-top: 18%;
         padding-bottom: 50px;
@@ -405,12 +408,14 @@
   .mdl-cell .mdl-cell--8-col{
     margin-top: 0px;
     margin-bottom: 20px;
+    // overflow-y: auto;
   }
   .resume-right-col {
+    background: linear-gradient(180deg, rgba(0,0,0,0.9) 10%,rgba(0,0,0, 1) 12%, rgba(0,0,0, .9)) 20%;
     position: relative;
     width: 100%;
     height: auto;
-    overflow-y: scroll;
+    overflow-y: auto;
     padding-bottom: 20%;
     margin-top: 0%;
     padding-top: 0%;
