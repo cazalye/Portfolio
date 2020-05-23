@@ -41,14 +41,16 @@ body .mdl-layout .mdl-layout__inner-container{
         .App.scrolled{
             .mdl-layout .mdl-layout__inner-container {
                 .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
-                    background-color: $accentOrange;
+                    background-color: $mediumOrange;
+                    // background-color: $accentBlue;
                 }
             }
         }
         .mdl-layout .mdl-layout__inner-container {
             z-index: 10;
             // height: 904%;
-            position: absolute;
+            // height: auto;
+            // position: fixed;
             .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
                 background-color: transparent;
                 transition: background-color .5s ease-in;
@@ -72,6 +74,7 @@ body .mdl-layout .mdl-layout__inner-container{
                     line-height: 0px;
                     left: 20px;
                     top: 50%;
+                    top: 0px;
                 }
                 .header-nav{
                     display:none;
@@ -93,9 +96,9 @@ body .mdl-layout .mdl-layout__inner-container{
                 }
             } 
             .mdl-layout__drawer{
+                position: fixed;
                 z-index: 11;
                 height: 100%;
-                // background-color: $accentBlue;
                 background-color: $fadedBlue;
                 // background-color: white;
                 .mdl-layout-title{
@@ -107,7 +110,7 @@ body .mdl-layout .mdl-layout__inner-container{
                         text-decoration: none;
                         padding-left: 0px;
                         left: 20px;
-                        top: 10px;
+                        top: 2px;
                     }
                 }
             }   
@@ -129,6 +132,7 @@ body .mdl-layout .mdl-layout__inner-container{
 // TABLET: 769-1024 
 @media (min-width: 769px) and (max-width: 1024px){
     body .mdl-layout .mdl-layout__inner-container{
+  
         .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
         }   
         .mdl-layout__header{
@@ -143,7 +147,6 @@ body .mdl-layout .mdl-layout__inner-container{
                     font-size: 1.6vw;
                     padding-left: 24px;
                     top: 30px;
-                    
                 }
             }
         }     
