@@ -28,7 +28,9 @@ class Resume extends Component {
                             {/* I now combine my analytical skills and strong attention to detail with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish.  */}
                            {/* <hr/>
                             I'm passionate about photography, travel and inspiring others.<hr/> */}
-
+                         <div className="aboutme-image-background">
+                            <img className="me-portrait" src="/img/me_portrait_faded_70.jpg" height="600px" width="auto" alt="portrait of me"/>
+                        </div>
                         </h2>
                     </Cell>
                     <Cell className="resume-col resume-right-col" col={8}>
