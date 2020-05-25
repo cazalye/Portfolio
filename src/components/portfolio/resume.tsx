@@ -7,17 +7,13 @@ import Publications from './publications';
 import Awards from './awards';
 import References from './references';
 import './resume.scss';
+import NavbarStyler from '../navbar/navbarStyler';
 
 class Resume extends Component {
-
-        // Make the navbar opaque on scroll
-    // opaque() {
-    //     const 
-    // }
-
     render() {
         return(
                 <Grid className="resume-grid">
+                    <NavbarStyler whiteTitle={true}/>
                     <Cell className="resume-col resume-left-col" col={4}> 
                         <h1>A <br/>designer<br/> who<br/> codes</h1>
                         <h2>

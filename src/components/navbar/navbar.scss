@@ -1,35 +1,72 @@
 @import "../../styles/colors";
 
-body .mdl-layout .mdl-layout__inner-container{
-    // height: 8%;
-    // z-index:20;
-    .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
-        position: fixed;
-        // background-color: $accentBlue;
-        background-color: transparent;
-        height: 8%;
-        z-index: 10;
-    }   
-    .mdl-navigation__link{
-        position: relative;
-        color: black;
-        font-size: 1.2vw;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 100;
-        padding-left: 40px;
+
+//  Navbar is opaque onScroll
+body{
+    .App.scrolled{
+        .mdl-layout .mdl-layout__inner-container {
+            .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
+                background-color: $mediumOrange;
+                // background-color: $accentBlue;
+            }
+        }
     }
-    .header-title{
-        position: fixed;
-        color: black;
-        font-family: "Quentin";
-        font-size: 50px;
-        text-decoration: none;
-        left:20px;
-        top:6px;
+    .mdl-layout .mdl-layout__inner-container{
+        // height: 8%;
+        // z-index:20;
+        .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
+            background-color: transparent;
+            transition: background-color .5s ease-in;
+            height: 8%;
+            z-index: 10;
+            // position: absolute;
+            position: fixed;
+        }   
+        .mdl-navigation__link{
+            position: relative;
+            color: black;
+            font-size: 1.2vw;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            padding-left: 40px;
+        }
+        .header-title{
+            position: fixed;
+            color: black;
+            font-family: "Quentin";
+            font-size: 50px;
+            text-decoration: none;
+            left:20px;
+            top:6px;
+        }
+        .mdl-layout__drawer-button{
+            display: none;
+        }
     }
-    .mdl-layout__drawer-button{
-        display: none;
-    }
+    // Navbar colour options
+    // .white-title .mdl-layout .mdl-layout__inner-container{ 
+    //     .header-title{
+    //         color: white;
+    //         z-index: 10000;
+    //         position: fixed;
+    //     }
+    //     .mdl-navigation__link{
+    //         color: white;
+    //         z-index: 10000;
+    //         position: fixed;
+    //     }
+    // }
+    // .orange-title .mdl-layout .mdl-layout__inner-container .mdl-layout__header{
+    //     .header-title{
+    //         color: $accentOrange;
+    //     }
+    //     .mdl-layout__drawer-button i{
+    //         color:  $accentOrange;
+    //     }
+    //     .mdl-navigation__link{
+    //         color:  $accentOrange;
+    //     }
+    // }
 }
 
 
