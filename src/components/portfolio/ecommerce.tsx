@@ -10,7 +10,7 @@ class Ecommerce extends Component {
         return (
             <div id="project-details">
                 <div className="feature-image">
-                    <img src="/img/Brands_80.jpg" height="auto" width="100%" alt="brands on parade"/>
+                    <img src="/img/Brands.jpg" height="auto" width="100%" alt="brands on parade"/>
                     {/* <img className="brands" src="/img/The Boys-8.jpg" height="auto" width="100%" alt="brands on parade"/> */}
                 </div>
                 {/* <Breadcrumbs maxItems={4} aria-label="breadcrumb" className="breadcrumbs">
@@ -62,8 +62,10 @@ class Ecommerce extends Component {
                         <li>Site back up</li>
                     </ul>
                     <h3>The Results</h3>
-                    <p>A modern, intuitive e-commerce. The initial site was completed within a week, with usability tests, feeback and adjustments made the following week. The site is optimised to encourage customers to subscribe to ongoing juice orders and multi-item purchases. <hr/>Testimonial from Bentley Deegan, Co-Director of Brands on Parade: </p>
-                    <blockquote>Quote from Bentley...</blockquote>
+                    <p>A modern, intuitive e-commerce. The initial site was completed within a week, with usability tests, feeback and adjustments made the following week. The site is optimised to encourage customers to subscribe to ongoing juice orders and multi-item purchases. 
+                        {/* <hr/>Testimonial from Bentley Deegan, Co-Director of Brands on Parade: </p>
+                        <blockquote>Quote from Bentley...</blockquote> */}
+                    </p>
                     <a href="https://brandsonparade.com" rel="noopener noreferrer" target="_blank"> 
                         Visit the Site
                         <i className='fas fa-external-link-alt' aria-hidden="true"/>

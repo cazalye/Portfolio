@@ -22,11 +22,11 @@ class Portfolio extends Component {
                         </Link>
                     </Breadcrumbs> */}
 
-                <div className="job-title">
+                {/* <div className="job-title">
                     <h1> Emma Cazaly</h1>
                     <h2>Web Designer & Front-end Developer</h2>
                     <p> HTML | CSS / SASS | JavaScript / Typscript | React | e-commerce | Adobe Suite | Photography </p>
-                </div>
+                </div> */}
 
                 <div className="project-summary"> 
                     <h2>Portfolio</h2>

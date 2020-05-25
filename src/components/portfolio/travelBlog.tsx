@@ -8,7 +8,7 @@ class TravelBlog extends Component {
             <div id="project-details">
                 <div className="image-overlay-travel"/>
                 <div className="feature-image">
-                    <img src="/img/Rafting_50.jpg" height="auto" width="100%" alt="cazalye travel blog"/>
+                    <img src="/img/Rafting.jpg" height="auto" width="100%" alt="cazalye travel blog"/>
                 </div>
                 {/* <Breadcrumbs maxItems={4} aria-label="breadcrumb" className="breadcrumbs">
                         <Link to="/" color="inherit">

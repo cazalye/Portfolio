@@ -1,50 +1,31 @@
 @import '../../styles/_colors.scss';
 
 #project-details{
-    // background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2),transparent), url("/img/Mountains.jpg");
-    // background-image: url("/img/Brands.jpg");
-    // background-size: cover;
     background-color:$accentBlue;
-    height: 100%;
+    // background-color:rgba(0,0,0,.9);
+    background-color: rgb(64, 61, 75);
+    height: auto;
     width: 100%;
-    position: fixed;
-    // overflow-x: auto;
-    // overflow-y: scroll;
-    .image-overlay-travel{
-        // background: linear-gradient(to right, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.01), transparent);
-        background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 20%,rgba(255, 255, 255, 0.05) 25%, transparent 30%);
-        height: 100%; 
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-    }
-    .image-overlay-portfolio{
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2),transparent);
-        height: 100%; 
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-    }
+    position: absolute;
+    top: 8%;
     .feature-image{
-        position: fixed;
-        // top:10%;
-        // padding-top: 1%;
-        // left:5%;
+        position: absolute;
+        width: 100%;
     }
     .project-summary{
         z-index: 2;
-        position: absolute;
-        top: 12%;
+        position: relative;
+        margin-top: 4%;
         height: 60%;
         width: 24%;
         margin-left: 1%;
         margin-bottom: 5%;
-        padding-bottom: 1%;
+        padding-bottom: 2%;
         background-color: rgba(0,0,0,.4);
         // box-shadow: 0 0 5px 1px rgba(0,0,0,.3);
         h2{
             color: $accentOrange;
-            padding-top: 1%;
+            padding-top: 5%;
             // font-family: 'Cormorant Garamond';
             font-family: 'Open Sans';
             font-size: 32px;
@@ -99,7 +80,8 @@
     }
     .arrow-tooltip{
         position: absolute;
-        top: 95%;
+        top: 680px;
+        top: 87vh;
         left: 50%;
         color:$accentOrange;
         z-index: 8;
@@ -110,13 +92,12 @@
         background-color: $accentBlue;
         height: auto;
         width: 93%;
+        top: 85vh;
         margin-left: 4%;
         margin-right: 4%;
-        top: 93%;
         padding-top: 1%;
         padding-bottom: 5%;
         margin-bottom: 5%;
-        // align-items: center;
         font-family: 'Open Sans';
         h3{
             color: $accentOrange;
@@ -169,14 +150,16 @@
 
 
 // Responsive Design
-// PHONE: 0-768 
-@media (max-width: 768px) {
+// PHONE: 0-767 
+@media (max-width: 767px) {
     #project-details{
         background-color:$accentBlue;
         position: absolute;
         overflow-y: scroll;
+        overflow-x: hidden;
         height: auto;
-        top: 11%;
+        top: 8%;
+        // padding-bottom: 50px;
         .image-overlay-travel{
         }
         .image-overlay-portfolio{
@@ -236,14 +219,16 @@
           }
         }
         .project-content{
-            z-index: 8;
-            position: relative;
+            position: absolute;
+            background-color: $accentBlue;
             height: auto;
-            width: 100%;
+            width: 93%;
+            z-index: 8;
+            top: 95vh;
             margin-left: 5%;
             margin-right: 5%;
             h3{
-                margin-top: 4%;
+                margin-top: 0%;
                 padding-left: 0%;
                 margin-bottom: 1%;
                 font-weight: bold;
@@ -284,5 +269,116 @@
     
 // TABLET: 768-1025 
 @media (min-width: 768px) and (max-width: 1025px){
-
+    #project-details{
+        background-color:$accentBlue;
+        position: absolute;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: auto;
+        top: 8%;
+        .image-overlay-travel{
+        }
+        .image-overlay-portfolio{
+        }
+        .feature-image{
+            position: relative;
+            padding: 0%;
+            margin: 0%;
+        }
+        .project-summary{
+            z-index: 8;
+            position: relative;
+            top: 0%;
+            margin: 0%;
+            padding-left: 1%;
+            height: 60vh;
+            width: 100%;
+            background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0, 0.8) 17%, rgba(0,0,0, 0.7) 25%);
+            overflow-y: scroll;
+            h2{
+                font-size: 60px;
+                line-height: 50px;
+                text-align: left;
+                margin-left: 5%;
+                margin-top: 0%;
+            }
+            .sub-header{
+                margin-bottom: 5%;
+                margin-top: .5%;
+            }
+            h3{
+                font-size: 32px;
+                line-height: 42px;
+                margin: 0px;
+                margin-left: 5%;
+                margin-top: 0%;
+            }
+            p{
+                font-size: 20px;
+                line-height: 30px;;
+                margin-left: 5%;
+                padding-right: 10%;
+            }
+            a{
+                font-size: 20px;
+                line-height: 34px;
+                margin-left: 5%;
+            }
+            i{
+                padding-left: 20px;
+            }
+        }
+        .arrow-tooltip{
+          display:none;
+          i{
+              display: none;
+          }
+        }
+        .project-content{
+            position: absolute;
+            background-color: $accentBlue;
+            height: auto;
+            width: 93%;
+            z-index: 8;
+            top: 96vh;
+            // margin-left: 5%;
+            // margin-right: 5%;
+            h3{
+                margin-top: 0%;
+                padding-left: 5%;
+                margin-bottom: 1%;
+                font-weight: bold;
+            }
+            p{
+                padding-left: 5%;
+                margin-right: 3%;
+                text-align: left;
+                font-size: 14px;
+                line-height: 24px;
+            }
+            ul{
+                padding-left: 10%;
+                padding-right: 10%;
+                color:black;
+                font-size: 14px;
+                line-height: 24px;
+            }
+            a{
+                padding-left: 5%;
+                font-size: 14px;
+                line-height: 52px;
+                color: $accentOrange;
+                i{
+                    padding-left: 10px;
+                }
+            }
+            blockquote{
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-left: 7%;
+                margin-right: 7%;
+                font-size: 22px;
+            }
+        }
+    }
 }
