@@ -85,6 +85,7 @@ body{
         }
         .mdl-layout .mdl-layout__inner-container {
             z-index: 10;
+            height: 10%;
             // height: 904%;
             // height: auto;
             // position: fixed;
@@ -169,7 +170,7 @@ body{
 // TABLET: 769-1024 
 @media (min-width: 769px) and (max-width: 1024px){
     body .mdl-layout .mdl-layout__inner-container{
-  
+        
         .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
         }   
         .mdl-layout__header{
