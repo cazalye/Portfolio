@@ -25,7 +25,7 @@ body{
         .mdl-navigation__link{
             position: relative;
             color: black;
-            font-size: 1.2vw;
+            font-size: 1vw;
             font-family: 'Open Sans', sans-serif;
             font-weight: 100;
             padding-left: 40px;
@@ -34,10 +34,11 @@ body{
             position: fixed;
             color: black;
             font-family: "Quentin";
-            font-size: 50px;
+            // font-size: 50px;
+            font-size: 2.5vw;
             text-decoration: none;
             left:20px;
-            top:6px;
+            top: 10px;
         }
         .mdl-layout__drawer-button{
             display: none;
@@ -79,13 +80,15 @@ body{
             .mdl-layout .mdl-layout__inner-container {
                 .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
                     background-color: $mediumOrange;
-                    // background-color: $accentBlue;
+                    background-color: $accentBlue;
                 }
             }
         }
         .mdl-layout .mdl-layout__inner-container {
             z-index: 10;
-            height: 10%;
+            height: 50vh;
+            // position: unset;
+            // height: 10%;
             // height: 904%;
             // height: auto;
             // position: fixed;
@@ -94,17 +97,15 @@ body{
                 transition: background-color .5s ease-in;
                 // background-color: $accentBlue;
                 height: 8%;
-                // z-index: 10;
-                // position: absolute;
                 position: fixed;
             } 
             .mdl-layout__header-row{
                 padding: 0px;
+                // position: absolute;
             }
             .mdl-layout__header{
                 display:block;
                 z-index: 10;
-                
                 .header-title{
                     position: absolute;
                     padding-left: 0px;
@@ -137,6 +138,7 @@ body{
                 position: fixed;
                 z-index: 11;
                 height: 100%;
+                // width: 50%;
                 background-color: $fadedBlue;
                 // background-color: white;
                 .mdl-layout-title{
@@ -155,7 +157,7 @@ body{
             .drawer-nav{
                 .mdl-navigation__link{
                     position: relative;
-                    top: 80px;
+                    top: 50px;
                     color: black;
                     font-size: 18px;
                     font-family: 'Open Sans', sans-serif;
