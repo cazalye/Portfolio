@@ -271,6 +271,13 @@ class Resume extends Component {
                             <hr/>
                             <h2>References</h2>
                             <References
+                                Name="Mr. Bentley Deegan"
+                                Description="Business Director"
+                                Company="Brands on Parade"
+                                Email="bentley@brandsonparade.com"
+                                Phone='+61 467 633 815'
+                            />
+                            <References
                                 Name="Professor Jaakko Kaprio"
                                 Description="Laboratory Head, Previous Institute Director"
                                 Company="Institute for Molecular Medicine Finland"
@@ -290,13 +297,6 @@ class Resume extends Component {
                                 Company="Menzies Institue for Medical Research"
                                 Email="a.f.holloway@utas.edu.au"
                                 Phone='+61 3 6226 2670'
-                            />
-                            <References
-                                Name="Mr. Bentley Deegan"
-                                Description="Business Director"
-                                Company="Brands on Parade"
-                                Email="bentley@brandsonparade.com"
-                                Phone='+61 467 633 815'
                             />
                         </Cell>
                 </Grid>
