@@ -10,11 +10,14 @@
         position: relative;
         display: inline-flex;
         top: 11%;
-        left: calc(50% - 615px);
-        // left: 50%;
+        // left: calc(50% - 615px);
+        left: calc(50% - 450px);
+        right: 5%;
         .project-cards{
+            // height: 400px;
             height: 400px;
-            width: 350px;
+            // width: 350px;
+            width: 22%;
             position: relative;
             // margin: 3%;
             margin: 30px;
@@ -22,6 +25,7 @@
             -webkit-box-shadow: 1px 5px 5px #444;
             box-shadow: 1px 3px 5px #444;
             text-decoration: none;
+            background-color: rgba(255,255,255,0.2);
             .card-content{
                
                 width: 100%;
@@ -46,9 +50,9 @@
                     p{
                         text-align: center;
                         margin: 20px;
-                        margin-top: 10px;
-                        padding-right: 30px;
-                        padding-left: 30px;
+                        margin-top: 20px;
+                        padding-right: 20px;
+                        padding-left: 20px;
                         font-size: 1vw;
                         line-height: 1.8vw;
                         font-weight: 100;
@@ -65,8 +69,8 @@
 }
 
 // Responsive Design
-// PHONE: 0-768
-@media (max-width: 768px) {
+// SMALL PHONE: 0-420
+@media (max-width: 420px) {
     #projects{
         position: relative;
         height: auto;
@@ -81,11 +85,12 @@
             .project-cards{
                 z-index: 9;
                 display: inline-flex;
-                height: 50vh;
+                height: 45vh;
                 width: 80%;
                 position: relative;
                 margin: 30px;
                 margin-top: 20px;
+                padding-bottom: 10px;
                 background-color: rgba(255,255,255,0.6);
                 .card-content{
                     .project-image{
@@ -99,8 +104,9 @@
                             margin-top: 5%;
                         }
                         p{
-                            font-size: 4vw;
-                            line-height: 6.5vw;
+                            font-size: 3.8vw;
+                            line-height: 5.5vw;
+                            margin-top: 5px;
                             padding: 0%;
                         }
                     }
@@ -114,8 +120,62 @@
 }
 
 // Responsive Design
-// Small Tabet: 769-1024
-@media (min-width: 769px) and (max-width: 1024px) {
+// LARGE PHONE: 421 - 800
+@media (min-width: 421px) and (max-width: 800px) {
+    #projects{
+        position: relative;
+        height: auto;
+        // height: 100vh;
+        overflow-y: scroll;
+        .card-container{
+            position: relative;
+            display: block;
+            margin-top: 25%;
+            left: 6%;
+            left: calc(50% - 230px);
+            margin-bottom: 10%;
+            .project-cards{
+                z-index: 9;
+                display: inline-flex;
+                height: 55vh;
+                // width: 75%;
+                width: 400px;
+                position: relative;
+                margin: 30px;
+                margin-top: 20px;
+                padding-bottom: 30px;
+                background-color: rgba(255,255,255,0.6);
+                .card-content{
+                    .project-image{
+                    }
+                    .card-text{
+                        h2{
+                            position: relative;
+                            font-size: 5vw;
+                            line-height: 7vw;
+                            margin-bottom: 0%;
+                            padding-bottom: 0%;
+                            margin-top: 30px;
+                        }
+                        p{
+                            font-size: 2.8vw;
+                            line-height: 5vw;
+                            padding: 0%;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+            a:hover{
+                opacity: .8;
+            }
+        }
+    }
+}
+
+// Responsive Design
+// TABLET
+@media (min-width: 801px) and (max-width: 1024px) {
     #projects{
         .card-container{
             position: relative;
@@ -150,7 +210,7 @@
 
 
 // Responsive Design
-// Large Tablet: 1025-1799
+// Large Tablet / laptop: 1025-1799
 @media (min-width: 1025px) and (max-width: 1799px) {
     #projects{
         .card-container{
@@ -160,8 +220,9 @@
                 height: 450px;
                 width: 35%;
                 position: relative;
-                margin: 20px;
+                margin: 40px;
                 background-color: rgba(255,255,255,0.6);
+                padding-bottom: 20px;
                 .card-content{
                     .project-image{
                     }
@@ -188,7 +249,7 @@
     #projects{
         .card-container{
             top: 11%;
-            // left: 20%;
+            left: 20%;
             margin-right: 40px;
             .project-cards{
                 height: 520px;
@@ -226,16 +287,14 @@
     }
 }
 
-
-
-
 // Responsive Design
 // Large: > 2440
 @media (min-width: 2440px){
     #projects{
         .card-container{
             top: 12%;
-            // right: 10%;
+            left: 25%;
+            margin-right: 40px;
             .project-cards{
                 height: 650px;
                 width: 550px;
