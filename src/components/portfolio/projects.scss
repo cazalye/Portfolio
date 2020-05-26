@@ -6,89 +6,103 @@
     height: 100%;
     width: 100%;
     position: fixed;
-    .project-cards{
-        height: 400px;
-        width: 350px;
+    .card-container{
         position: relative;
-        top: 10%;
-        left: 10%;
         display: inline-flex;
-        padding: 0%;
-        margin: 2%;
-        -moz-box-shadow: 5px 5px 5px #ccc;
-        -webkit-box-shadow: 5px 5px 5px #ccc;
-        box-shadow: 5px 5px 5px #ccc;
-        .card-content{
-            width: 100%;
-            text-align: center;
-            font-family: "Open Sans";
+        top: 12%;
+        left: calc(50% - 615px);
+        // left: 50%;
+        .project-cards{
+            height: 400px;
+            width: 350px;
+            position: relative;
+            // margin: 3%;
+            margin: 30px;
+            -moz-box-shadow: 1px 5px 5px #444;
+            -webkit-box-shadow: 1px 5px 5px #444;
+            box-shadow: 1px 3px 5px #444;
             text-decoration: none;
-            .project-image{
+            .card-content{
+               
                 width: 100%;
-                position: relative;
-                padding: 0px;
-                margin: 0px;
-            }
-            .card-text{
-                h2{
+                text-align: center;
+                font-family: "Open Sans";
+                .project-image{
+                    width: 100%;
                     position: relative;
-                    font-size: 2vw;
-                    font-family: "Open Sans";
-                    // margin-top: 35%;
-                    margin-bottom: 0%;
-                    padding-bottom: 0%;
-                    color:black;
+                    padding: 0px;
+                    margin: 0px;
                 }
-                p{
-                    text-align: center;
-                    margin: 20px;
-                    font-size: 1vw;
-                    line-height: 1.8vw;
-                    font-weight: 100;
-                    color: black;
-                    position: relative;
+                .card-text{
+                    h2{
+                        position: relative;
+                        font-size: 2vw;
+                        font-family: "Open Sans";
+                        margin-top: 7%;
+                        margin-bottom: 0%;
+                        padding-bottom: 0%;
+                        color:black;
+                    }
+                    p{
+                        text-align: center;
+                        margin: 20px;
+                        margin-top: 10px;
+                        padding-right: 30px;
+                        padding-left: 30px;
+                        font-size: 1vw;
+                        line-height: 1.8vw;
+                        font-weight: 100;
+                        color: black;
+                        position: relative;
+                    }
                 }
             }
-        }
+        } 
         a:hover{
-            opacity: .8;
+            opacity: .85;
         }
     }
 }
 
 // Responsive Design
-// PHONE: 0-1024
-@media (max-width: 1024px) {
+// PHONE: 0-768
+@media (max-width: 768px) {
     #projects{
-        z-index: 9;
-        overflow-y: scroll;
-        position: absolute;
+        position: relative;
         height: auto;
-        background-size: cover;
-        padding-bottom: 35%;
-        .project-cards{
-            height: 50%;
-            width: 80%;
-            left: 5%;
-            display: inline-flex;
-            padding: 0px;
-            margin: 20px;
-            margin-top: 12%;
-            top: 50px;
-            .card-content{
-                background-color: rgba(255,255,255,0.5);
-                .project-image{
-                }
-                .card-text{
-                    h2{
-                        position: relative;
-                        font-size: 6.5vw;
-                        margin-bottom: 0%;
-                        padding-bottom: 0%;
+        // height: 100vh;
+        overflow-y: scroll;
+        .card-container{
+            position: relative;
+            display: block;
+            margin-top: 25%;
+            left: 1.5%;
+            margin-bottom: 10%;
+            .project-cards{
+                z-index: 9;
+                display: inline-flex;
+                height: 50vh;
+                width: 80%;
+                position: relative;
+                margin: 30px;
+                margin-top: 20px;
+                background-color: rgba(255,255,255,0.6);
+                .card-content{
+                    .project-image{
                     }
-                    p{
-                        font-size: 4vw;
-                        line-height: 6.5vw;
+                    .card-text{
+                        h2{
+                            position: relative;
+                            font-size: 6.7vw;
+                            margin-bottom: 0%;
+                            padding-bottom: 0%;
+                            margin-top: 5%;
+                        }
+                        p{
+                            font-size: 4vw;
+                            line-height: 6.5vw;
+                            padding: 0%;
+                        }
                     }
                 }
             }
@@ -99,3 +113,74 @@
     }
 }
 
+// Responsive Design
+// Tabet: 769-1024
+@media (min-width: 769px) and (max-width: 1024px) {
+    #projects{
+        .card-container{
+            position: relative;
+            display: inline-flex;
+            top: 14%;
+            left: calc(50% - 510px);
+            .project-cards{
+                height: 350px;
+                width: 300px;
+                position: relative;
+                margin: 20px;
+                .card-content{
+                    .project-image{
+                    }
+                    .card-text{
+                        h2{
+                            position: relative;
+                            font-size: 2.8vw;
+                        }
+                        p{
+                            font-size: 1.5vw;
+                            line-height: 2.2vw;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+
+// Responsive Design
+// Large: > 1440
+@media (min-width: 1440px){
+    #projects{
+        .card-container{
+            top: 12%;
+            // right: 10%;
+            .project-cards{
+                height: 650px;
+                width: 550px;
+                position: relative;
+                margin: 30px;
+                .card-content{
+                    .project-image{
+                    }
+                    .card-text{
+                        h2{
+                            font-size: 2.2vw;
+                            margin-top: 10%;
+                            margin-bottom: 8%;
+                        }
+                        p{
+                            margin: 20px;
+                            margin-top: 10px;
+                            padding-left: 50px;
+                            padding-right: 50px;
+                            font-size: 1.2vw;
+                            line-height: 2vw;
+                        }
+                    }
+                }
+            } 
+            a:hover{
+                opacity: .85;
+            }
+        }
+    }
+}

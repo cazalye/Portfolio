@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 interface ProjectCardProps{
     title: string, 
     summary: string,
-    more: string,
+    link: string,
     image: string,
     
 }
@@ -14,8 +14,8 @@ class ProjectCards extends Component<ProjectCardProps,ProjectCardProps> {
 
     render() {
         return (
-            <div className="project-cards">
-                <Link className="card-content" to={this.props.more}>
+            <Link className="project-cards" to={this.props.link}>
+                <div className="card-content" >
                     <div className="project-image">
                         <img src={this.props.image} height="" width="100%" alt="project "/>
                     </div>
@@ -23,8 +23,8 @@ class ProjectCards extends Component<ProjectCardProps,ProjectCardProps> {
                         <h2>{this.props.title}</h2>
                         <p>{this.props.summary}</p>
                     </div>
-                </Link>
-            </div>
+                </div>
+            </Link>
         );
     }
 }
