@@ -9,7 +9,7 @@
     .card-container{
         position: relative;
         display: inline-flex;
-        top: 12%;
+        top: 11%;
         left: calc(50% - 615px);
         // left: 50%;
         .project-cards{
@@ -114,19 +114,21 @@
 }
 
 // Responsive Design
-// Tabet: 769-1024
+// Small Tabet: 769-1024
 @media (min-width: 769px) and (max-width: 1024px) {
     #projects{
         .card-container{
             position: relative;
             display: inline-flex;
-            top: 14%;
-            left: calc(50% - 510px);
+            top: 16%;
+            left: 0%;
             .project-cards{
                 height: 350px;
                 width: 300px;
+                width: 35%;
                 position: relative;
                 margin: 20px;
+                background-color: rgba(255,255,255,0.6);
                 .card-content{
                     .project-image{
                     }
@@ -146,9 +148,90 @@
     }
 }
 
+
 // Responsive Design
-// Large: > 1440
-@media (min-width: 1440px){
+// Large Tablet: 1025-1799
+@media (min-width: 1025px) and (max-width: 1799px) {
+    #projects{
+        .card-container{
+            top: 16%;
+            left: 0%;
+            .project-cards{
+                height: 450px;
+                width: 35%;
+                position: relative;
+                margin: 20px;
+                background-color: rgba(255,255,255,0.6);
+                .card-content{
+                    .project-image{
+                    }
+                    .card-text{
+                        h2{
+                            position: relative;
+                            font-size: 2.2vw;
+                            margin-top: 20px;
+                        }
+                        p{
+                            font-size: 1.2vw;
+                            line-height: 2vw;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+
+// Responsive Design
+// 1800-2439
+@media (min-width: 1800px) and (max-width: 2439px){
+    #projects{
+        .card-container{
+            top: 11%;
+            // left: 20%;
+            margin-right: 40px;
+            .project-cards{
+                height: 520px;
+                width: 23%;
+                position: relative;
+                margin: 30px;
+                padding-bottom: 3%;
+                background-color: rgba(255,255,255,0.4);
+                .card-content{
+                    
+                    .project-image{
+                    }
+                    .card-text{
+                        
+                        h2{
+                            font-size: 2.2vw;
+                            margin-top: 10%;
+                            margin-bottom: 8%;
+                        }
+                        p{
+                            margin: 20px;
+                            margin-top: 10px;
+                            padding-left: 50px;
+                            padding-right: 50px;
+                            font-size: 1.2vw;
+                            line-height: 2vw;
+                        }
+                    }
+                }
+            } 
+            a:hover{
+                opacity: .85;
+            }
+        }
+    }
+}
+
+
+
+
+// Responsive Design
+// Large: > 2440
+@media (min-width: 2440px){
     #projects{
         .card-container{
             top: 12%;
