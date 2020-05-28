@@ -18,7 +18,7 @@ class About extends Component {
                             <li> Web Design including wireframing and prototyping</li>
                             <li> Front-End Development: React, JavaScript/TypeScript, HTML, CSS (SASS)</li>
                             <li> WordPress and  WooCommerce</li>
-                            <li> Deployment, including hosting & domain names, site security, payment gateways</li>
+                            <li> Deployment, including hosting & domain name transfer, site security, payment gateways</li>
                             <li> User Experience including Usability testing</li>
                             <li> SEO, Google Indexing & Google Analytics</li>
                         </ul>
