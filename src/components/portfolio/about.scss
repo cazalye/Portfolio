@@ -1,15 +1,12 @@
 @import '../../styles/_colors.scss';
 
 .aboutme-background{
-    // background: linear-gradient(to right, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03),transparent), url("/img/Me_autumn.jpg");
-    // background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1), transparent), url("/img/me_waterhole.jpg");
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4)), url("/img/Mountains.jpg");
     background-size: cover;
-    // background-color: #d1dde0;
     width: 100%;
     height: 100vh;
-    // overflow-y: scroll;
     position: fixed;
+    overflow-y: scroll;
     .aboutme-image-background{
         position: absolute;
         width: 35%;
@@ -17,7 +14,6 @@
         right: 2%;
         top: 12%;
         background-color: rgba(0,0,0,.3);
-        // background-color: $accentBlue;
     }
     .me-portrait{
         position: absolute;
@@ -79,7 +75,7 @@
         .aboutme-image-background{
             position: relative;
             width: 50%;
-            height: 310px;
+            height: 280px;
             margin: 5%;
             left: 30%;
             margin-top: 20%;
@@ -92,7 +88,7 @@
             width: 90%;
             height: auto;
             left: 25%;
-            top: 8%;
+            top: 7%;
         }
         .aboutme-text{
             position: relative;
@@ -173,7 +169,7 @@
             .title-short{
                 display: block;
                 position: relative;
-                font-size: 8vw;
+                font-size: 8.2vw;
                 line-height: 9.5vw;
                 margin-bottom: 30px;
                 // padding-top: 10px;
@@ -184,8 +180,9 @@
                 position: relative;
                 margin-left: 2%;
                 margin-right: 8%;
+                margin-bottom: 7%;
                 padding-top: 20px;
-                font-size: 4.5vw;
+                font-size: 4vw;
                 line-height: 6vw;
                 color: black;
                 text-align: left;
@@ -197,9 +194,118 @@
                     font-size: 3.5vw;
                     line-height: 5vw;
                     margin-right: 8%;
+                    padding: 8px;
                 }
             }
         }
     }
 }
+
+
+
+
+// Responsive Design
+// 1026- 1300
+@media (min-width: 1026px) and (max-width: 1600px){
+    .aboutme-background{
+        overflow-y: scroll;
+        .aboutme-image-background{
+            width: 30%;
+            height: 65%;
+            right: 5%;
+            top: 12%;
+        }
+        .me-portrait{
+            width: 82%;
+            height: auto;
+            // left: 20%;
+            right: 3%;
+            top: 15%;
+        }
+        .aboutme-text{
+            width: 50%;
+            // margin-top: 15%;
+            margin-left: 5%;
+            margin-bottom: 5%;
+            .title-short{
+                display: none;
+            }
+            h2{
+               font-size: 38px;
+               margin-bottom: 40px;
+               margin-right: 50px;
+            }
+            p{
+                font-size: 20px;
+                line-height: 28px;;
+                margin-bottom: 30px;
+                margin-right: 20px;
+            }
+            ul{
+                margin-bottom: 20px;
+                margin-left: 2%;
+                li{
+                    font-size: 16px;
+                    line-height: 34px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// Responsive Design
+//  >1601
+@media (min-width: 1601px){
+    .aboutme-background{
+        .aboutme-image-background{
+            width: 30%;
+            height: 70%;
+            right: 5%;
+            top: 12%;
+        }
+        .me-portrait{
+            width: 85%;
+            height: auto;
+            right: 3%;
+            top: 10%;
+        }
+        .aboutme-text{
+            width: 55%;
+            margin-left: 5%;
+            margin-bottom: 5%;
+            .title-short{
+                display: none;
+            }
+            h2{
+            //    font-size: 38px;
+               font-size: 2.5vw;
+               line-height: 3.3vw;
+               margin-bottom: 40px;
+               margin-right: 50px;
+            }
+            p{
+                // font-size: 20px;
+                //  line-height: 28px;
+                font-size: 1.3vw;
+                line-height: 2vw;
+                margin-bottom: 40px;
+                margin-right: 20px;
+            }
+            ul{
+                margin-left: 2%;
+                li{
+                    font-size: 18px;
+                    line-height: 38px;
+                    font-size: 1vw;
+                    line-height: 2.2vw;
+                    // padding-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
 
