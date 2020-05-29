@@ -45,10 +45,11 @@
       h2{
         font-family: 'Open Sans';
         font-weight: 100;
-        font-size: 1.6vw;
+        font-size: 1.5vw;
         line-height: 2.3vw;
         padding-right: 25px;
-        margin-bottom: 0px;
+        // margin-bottom: 10px;
+        padding-top: 1%;
         color: black;
       }
       hr{
@@ -133,6 +134,7 @@
         font-weight: 100;
         font-family: 'Open Sans';
         font-size: 1.1vw;
+        line-height: 1.4vw;
       }  
       .mdl-progress{
           .progressbar {
@@ -393,8 +395,8 @@
 }
  
     
-// TABLET: 768-1025 
-@media (min-width: 768px) and (max-width: 1025px){
+// TABLET: 768-1024
+@media (min-width: 768px) and (max-width: 1024px){
   .mdl-grid.resume-grid{
     // overflow-y: scroll;
     position: absolute;
@@ -407,6 +409,14 @@
         margin: 0px;
       }
     .resume-left-col{ 
+      position: relative;
+      height: 110vh;
+      // height: 95%;
+      width: 100%;
+      margin-top: 0%;
+      padding-top: 0%;
+      padding-left: 7%;
+      margin-bottom:0%;
       .aboutme-image-background{
       display: block;
       position: absolute;
@@ -415,7 +425,7 @@
       height: 290px;
       margin: 5%;
       right: 3%;
-      top: 14%;
+      top: 8%;
       .me-portrait{
         display: block;
         position: absolute;
@@ -426,16 +436,8 @@
         top: 11%;
       }
     }
-      position: relative;
-      height: 110vh;
-      width: 100%;
-      margin-top: 0%;
-      padding-top: 0%;
-      padding-left: 7%;
-      margin-bottom:0%;
-      // overflow-y: auto;
       h1{
-        padding-top: 20%;
+        padding-top: 15%;
         padding-bottom: 50px;
         font-size: 9vw;
         line-height: 10vw;
@@ -445,6 +447,7 @@
         font-size: 4vw;
         line-height: 6.8vw;
         padding-top: 11%;
+        // padding-bottom: 10px;
       }
     }
   .resume-left-col::-webkit-scrollbar {
@@ -456,7 +459,7 @@
     // overflow-y: auto;
   }
   .resume-right-col {
-    background: linear-gradient(180deg, rgba(0,0,0,0.9) 10%,rgba(0,0,0, 1) 12%, rgba(0,0,0, .9)) 20%;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 10%,rgba(0,0,0, .9)) 20%;
     position: relative;
     width: 100%;
     height: auto;
