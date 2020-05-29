@@ -1,38 +1,32 @@
 @import '../../styles/_colors.scss';
 
 #project-details{
-    background-color:$accentBlue;
-    // background-color:rgba(0,0,0,.9);
     background-color: rgb(64, 61, 75);
     height: auto;
     width: 100%;
-    position: absolute;
-    top: 8%;
+    margin-top: 4.5%;
     .feature-image{
         position: absolute;
         width: 100%;
     }
     .project-summary{
         z-index: 2;
-        position: relative;
-        margin-top: 4%;
+        position: absolute;
+        margin-top: 3%;
         height: 60%;
         width: 24%;
         margin-left: 1%;
         margin-bottom: 5%;
         padding-bottom: 2%;
         background-color: rgba(0,0,0,.4);
-        // box-shadow: 0 0 5px 1px rgba(0,0,0,.3);
         h2{
             color: $accentOrange;
             padding-top: 5%;
-            // font-family: 'Cormorant Garamond';
             font-family: 'Open Sans';
             font-size: 32px;
             line-height: 36px;
             text-align: left;
             margin-left: 8%;
-            // margin-right: 8%;
             margin-bottom: 1%;
         }
         .sub-header{
@@ -40,14 +34,12 @@
             margin-top: 0%;
             margin-left: 13%;
             color: $accentOrange;
-            // color:white;
         }
         h3{
             color: $accentOrange;
             font-size: 24px;
             margin: 0px;
             margin-left: 8%;
-            // margin-right: 8%;
             margin-top: 5%;
             font-family: "Open Sans";
             text-align: left;
@@ -58,9 +50,7 @@
             line-height: 26px;;
             font-weight: 100;
             margin-left: 8%;
-            // margin-right: 8%;
             padding-right: 10%;
-            // width:25%;
             font-family: 'Open Sans';
             text-align: left;
         }
@@ -73,7 +63,6 @@
             text-decoration: none;
         }
         i{
-            // z-index: 10000;
             color: white;
             padding-left: 10px;
         }
@@ -108,7 +97,6 @@
         }
         p{
             color: black;
-            // width: 70%;
             padding-left: 7%;
             padding-right: 7%;
             text-align: left;
@@ -124,6 +112,11 @@
             line-height: 26px;
             font-weight: 100;
             font-family: 'Open Sans';
+            li{
+                font-size: 16px;
+                line-height: 32px;
+
+            }
         }
         
         a{
@@ -275,7 +268,7 @@
         overflow-y: scroll;
         overflow-x: hidden;
         height: auto;
-        top: 8%;
+        top: 4.5%;
         .image-overlay-travel{
         }
         .image-overlay-portfolio{
@@ -291,10 +284,12 @@
             top: 0%;
             margin: 0%;
             padding-left: 1%;
-            height: 60vh;
+            // height: 60vh;
+            height: auto;
             width: 100%;
-            background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(0,0,0, 0.8) 17%, rgba(0,0,0, 0.7) 25%);
-            overflow-y: scroll;
+            background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgba(0,0,0, 0.8) 20%, rgba(0,0,0, 0.7) 25%);
+            // overflow-y: scroll;
+            padding-bottom: 5%;
             h2{
                 font-size: 60px;
                 line-height: 50px;
@@ -335,12 +330,14 @@
           }
         }
         .project-content{
-            position: absolute;
+            // position: absolute;
+            position: relative;
             background-color: $accentBlue;
             height: auto;
             width: 93%;
             z-index: 8;
-            top: 96vh;
+            top: 0;
+            padding-top: 5%;
             // margin-left: 5%;
             // margin-right: 5%;
             h3{
@@ -382,3 +379,65 @@
         }
     }
 }
+
+//   Responsive Design
+// Large:  > 1900
+@media (min-width: 1900px){
+    #project-details{
+        margin-top: 3.8%;
+        .project-summary{
+            margin-top: 3%;
+            h2{
+                font-size: 2.2vw;
+                line-height: 2.8vw;
+            }
+            .sub-header{
+                font-size: 1.2vw;
+                line-height: 2vw;
+            }
+            h3{
+                font-size: 1.5vw;
+                line-height: 2.5vw;
+            }
+            p{
+                font-size: 1vw;
+                line-height: 1.6vw;
+            }
+            a{
+                font-size: 18px;
+            }
+            i{
+                color: white;
+                padding-left: 10px;
+            }
+        }
+        .arrow-tooltip{
+            position: absolute;
+            top: 680px;
+            top: 87vh;
+            left: 50%;
+            color:$accentOrange;
+            z-index: 8;
+        }
+        .project-content{
+            h3{
+                font-size: 1.5vw;
+                line-height: 2.5vw;
+            }
+            p{
+                font-size: 1vw;
+                line-height: 1.6vw;
+            }
+            ul{
+                li{
+                    font-size: 1vw;
+                    line-height: 2vw;
+                }
+            }
+            a{
+                font-size: 1vw;
+                line-height: 1.6vw;
+            }
+        }
+    }   
+}    
