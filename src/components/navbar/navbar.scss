@@ -6,8 +6,8 @@ body{
     .App.scrolled{
         .mdl-layout .mdl-layout__inner-container {
             .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
-                background-color: $mediumOrange;
-                // background-color: $accentBlue;
+                // background-color: $mediumOrange;
+                background-color: $accentBlue;
             }
         }
     }
@@ -79,7 +79,7 @@ body{
         .App.scrolled{
             .mdl-layout .mdl-layout__inner-container {
                 .mdl-layout__header.mdl-layout__header--transparent.is-casting-shadow{
-                    background-color: $mediumOrange;
+                    // background-color: $mediumOrange;
                     background-color: $accentBlue;
                 }
             }
