@@ -46,8 +46,8 @@ class Ecommerce extends Component {
                     <p>As this was my first e-commerce site, and required a quick turn-around time, I chose WooCommerce as the e-commerce platform. I was solely responsible for the project from start to finish, including:</p>
 
                     <ul>
-                        <li>Photographing and editing most of the 70+ products (editing with Lightroom & Photoshop)</li>
-                        <li>Photographing and editing editorial syle shots of the staff at markets and at their warehouse for use in the about section and throughout the website</li>
+                        <li>Photography: 70+ products, editorial syle shots </li>
+                        <li>Editing all photos with Lightroom & Photoshop</li>
                         <li>Hosting setup, Domain Name & email transfer</li>
                         <li>Wordpress & WooCommerce installation & customisation</li>
                         <li>Creating all product listings</li>
