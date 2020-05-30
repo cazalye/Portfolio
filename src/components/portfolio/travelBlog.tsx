@@ -26,7 +26,7 @@ class TravelBlog extends Component {
                     <h3>My Role</h3>
                     <p>Design, Development, Photography, Content Creation</p>
                     <h3>Check it out</h3>
-                    <a href="http://cazalye.com" rel="noopener noreferrer" target="_blank"> 
+                    <a href="https://cazalye.com" rel="noopener noreferrer" target="_blank"> 
                         Launch Site
                         <i className='fas fa-external-link-alt' aria-hidden="true"/>
                     </a>
@@ -51,7 +51,7 @@ class TravelBlog extends Component {
                         </a>
                     <h3>The Results</h3>
                     <p>A visually rich travel blog that reflects my personal style and provides me with a unique platform to share my travel photography and writing. I was particularly pleased with the format of the photo diaries which I designed entirely with CSS to resemble the pages of a photo flip book.</p>
-                    <a href="http://cazalye.com" rel="noopener noreferrer" target="_blank"> 
+                    <a href="https://cazalye.com" rel="noopener noreferrer" target="_blank"> 
                         Visit Site
                         <i className='fas fa-external-link-alt' aria-hidden="true"/>
                     </a>
