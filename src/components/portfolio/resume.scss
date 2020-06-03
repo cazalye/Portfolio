@@ -26,7 +26,7 @@
       // height: calc(100% - 65px);
       padding: 1.5em;
       padding-top: 4em;
-      background: linear-gradient(to bottom, rgba(251, 144, 115, .3),rgba(251, 144, 115, .6), rgba(251, 144, 115, .7));
+      background: linear-gradient(to bottom, rgba(251, 144, 115, .2),rgba(251, 144, 115, .5), rgba(251, 144, 115, .6),rgba(251, 144, 115, .65),rgba(251, 144, 115, .7));
       // margin-top: 64px;
       margin: 0px;
       border-radius: 3px;
@@ -45,37 +45,35 @@
       h2{
         font-family: 'Open Sans';
         font-weight: 100;
-        font-size: 1.5vw;
+        font-size: 1.3vw;
         line-height: 2.3vw;
-        padding-right: 25px;
+        // padding-right: 25px;
         // margin-bottom: 10px;
-        padding-top: 1%;
+        padding-top: 10%;
         color: black;
       }
       hr{
         border:none;
-        margin-bottom: 15px;
+        margin-bottom: 1vw;
         margin-top: 0px;
       }
     }
   .resume-left-col::-webkit-scrollbar {
     display: none;
   }
+  .mdl-cell .mdl-cell--8-col{
+    padding-bottom: .5%;
+  }
   .resume-right-col {
-    // position: fixed;
     position: relative;
     overflow-y: scroll;
-    // height: auto;
     height: 100%;
     width: 66.6667%;
-    // background: linear-gradient(180deg, rgba(0,0,0,0.9) 80%,rgba(0,0,0, 0.8) 92%, rgba(0,0,0, 0.4)) 95%;
     background: linear-gradient(180deg, rgba(0,0,0, 0.75) 6%,rgba(0,0,0, 0.8) 10%, rgba(0,0,0, 0.85) 14%, rgba(0,0,0,0.9) 80%,rgba(0,0,0, 0.8) 92%, rgba(0,0,0, 0.4)) 95%;
-    // background: linear-gradient(180deg,$accentOrange 8%, rgba(0,0,0,0.9) 8%,rgba(0,0,0, 0.8) 92%, rgba(0,0,0, 0.4)) 95%;
     color: white; 
     padding: 1.5em;
     padding-top: 4em;
     margin: 0px;
-    // height: calc(100% - 65px);
     h1{
       font-family: 'Open Sans';
       font-weight: 100;
@@ -90,8 +88,7 @@
       font-family: 'Open Sans';
       font-weight: 100;
       font-size: 3.6vw;
-      // color: #fb9073;
-      // color: rgba(251, 144, 115, 1); 
+      line-height: 4.6vw;
       color: $accentOrange;
       padding-top: 0px;
       margin-top: 3%;
@@ -102,6 +99,8 @@
       font-weight: 100;
       margin-top: 0px;
       color: $accentOrange;
+      font-size: 1.5vw;
+      line-height: 2.5vw;
     }
     .material-icons{
       font-size: 36px;
@@ -112,11 +111,14 @@
       z-index: 0;
     }
     p{
-      font-size: 16px;
+      font-size: 1.2vw;
+      line-height: 2.2vw;
       color: white;
     }
     a{
       color:$accentOrange;
+      font-size: 1.2vw;
+      line-height: 2.2vw;
       }
     .resume-skill-progress {
       margin: auto;
@@ -126,17 +128,18 @@
       display: flex;
       font-size: 16px;
       font-size: 1.1vw;
+      padding-bottom: .4vw;
       span {
-        // width: 200px;
         width: 20%;
         color:#eee;
-        // color:red;
         font-weight: 100;
         font-family: 'Open Sans';
         font-size: 1.1vw;
         line-height: 1.4vw;
       }  
       .mdl-progress{
+        width: 50%;
+        height: .2vw;
           .progressbar {
           /* background-color: rgb(63,81,181); */
           background-color:$accentOrange; 
@@ -152,20 +155,24 @@
       }
     }  
     .publications{
+      h4{
+        font-size: 1.8vw;
+        line-height: 2.8vw;
+      }
       p{
         text-align: left;
-        font-size: 1.1vw;
-        line-height: 1.8vw;
+        font-size: 1.2vw;
+        line-height: 2.2vw;
       }
       a{
-        font-size: 1.1vw;
-        line-height: 1.8vw;
+        font-size: 1.2vw;
+        line-height: 2.2vw;
         color:white;
         font-weight: 100;
         font-family: 'Open Sans';
         text-decoration: none;
         i{
-          padding-left: 15px;
+          padding-left: .6vw;
         }
       }
     }
@@ -174,31 +181,37 @@
         color:$accentOrange;
         padding-top: 0px;
         margin-top: 0px;
+        font-size: 1.5vw;
+        line-height: 2.5vw;
       }
       p{
         text-align: left;
-        // font-size: 1.1vw;
-        line-height: 20px;
-        margin-top: 1%;
+        font-size: 1.2vw;
+        line-height: 2.2vw;
       }
+      margin-bottom: 5%;
+      margin-top: 5%;
     }
     .resume{
       h4{
         margin-top: 10px;
         margin-bottom: 0px;
+        font-size: 1.8vw;
+        line-height: 2.8vw;
       }
       h5{
         margin: 0px;
+        font-size: 1.5vw;
       }
       p{
         text-align: left;
-        font-size: 1.1vw;
-        line-height: 1.8vw;
+        font-size: 1.2vw;
+        line-height: 2.2vw;
         margin-top: 2%;
       }
       a{
-        font-size: 1.1vw;
-        // line-height: 1.8vw;
+        font-size: 1.2vw;
+        line-height: 2.2vw;
         margin-top: 2%;
         text-decoration: none;
         i{
@@ -571,4 +584,32 @@
       }
     }
   }
+}
+
+
+// LARGE: >2500 px
+@media (min-width: 2500px){
+  .mdl-grid.resume-grid .resume-left-col{
+    h1{
+      line-height: 4.1vw;
+    }
+    h2{
+      padding-top: 15%;
+      font-size: 1.5vw;
+      line-height: 2.7vw;
+    }
+    hr{
+      margin-bottom: 2vw;
+    }
+  }
+  .mdl-grid.resume-grid{
+    .mdl-cell .mdl-cell--8-col{
+      padding-bottom: 5%;
+    }
+    .resume-right-col{
+      .resume-skill-col span{
+      line-height: 1.6vw;
+    }
+  }
+  } 
 }
