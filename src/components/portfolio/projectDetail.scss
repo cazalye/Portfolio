@@ -73,7 +73,10 @@
         top: 87vh;
         left: 50%;
         color:$accentOrange;
-        z-index: 8;
+        z-index: 10;
+        i{
+            font-size: 2vw;
+        }
     }
     .project-content{
         z-index: 9;
@@ -404,25 +407,30 @@
                 line-height: 1.6vw;
             }
             a{
-                font-size: 18px;
+                font-size: 1vw;
+                line-height: 1.6vw;
             }
             i{
                 color: white;
-                padding-left: 10px;
+                padding-left: 1vw;
             }
         }
         .arrow-tooltip{
             position: absolute;
-            top: 680px;
-            top: 87vh;
+            top: 90vh;
             left: 50%;
             color:$accentOrange;
-            z-index: 8;
+            z-index: 10;
+            i{
+                font-size: 2vw;
+            }
         }
         .project-content{
+            top: 89vh;
             h3{
-                font-size: 1.5vw;
-                line-height: 2.5vw;
+                font-size: 1.7vw;
+                line-height: 2.9vw;
+                margin-top: 2%;
             }
             p{
                 font-size: 1vw;
