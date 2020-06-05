@@ -385,26 +385,26 @@
           margin-top: 1%;
           color:white;
         }
-      }
-       
     }
     .reference{
-      h5{
-        margin-top: 10px;
-        margin-bottom: 0px;
-        font-size: 5.5vw;
-        line-height: 7.2vw;
-        color: $accentOrange;
+        h5{
+        font-size: 4.5vw;
+        line-height: 6vw;
         font-weight: 100;
-        font-family: 'Open sans';
-      }
+        font-family: 'Open Sans';
+        margin-bottom: 0px;
+        margin-top: 0px;
+        }
         p{
         font-size: 3.5vw;
-        // line-height: 3vw;
+        line-height: 4.5vw;
         margin-bottom: 2%;
-      }
+        font-weight: 100;
+      font-family: 'Open Sans';
+        }
     }
   }
+}
 }
  
     
