@@ -257,8 +257,7 @@
 
 
 // Responsive Design
-//  1601-2560
-// @media (min-width: 1601px) and (max-width: 2560px){
+//  >1601
 @media (min-width: 1601px){
     .aboutme-background{
         .aboutme-image-background{
@@ -297,18 +296,10 @@
                 margin-left: 3%;
                 li{
                     font-size: 1.2vw;
-                    line-height: 2.2vw;
+                    line-height: 2vw;
                     padding-bottom: 15px;
                 }
             }
         }
     }
-}
-
-
-// Responsive Design
-//  LARGE >2561
-@media (min-width: 2561px){
-
-
 }
