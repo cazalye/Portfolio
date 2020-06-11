@@ -7,7 +7,8 @@ class About extends Component {
         return(
             <div className="aboutme-background">
                 <div className="aboutme-image-background"> 
-                    <img className="me-portrait" src="/img/me_portrait_faded_70.jpg" height="600px" width="auto" alt="portrait of me"/>
+                    <img className="me-portrait" src="/img/me_small.jpg" height="600px" width="auto" alt="portrait of me"/>
+                    {/* <div className="me-portrait"/> */}
                 </div>
                 <div className="aboutme-text">
                     <h2 className="title-long">I'm a front-end React developer with a passion for photography and design.</h2>

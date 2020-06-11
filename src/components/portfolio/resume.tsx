@@ -48,7 +48,7 @@ class Resume extends Component {
                            {/* <hr/>
                             I'm passionate about photography, travel and inspiring others.<hr/> */}
                          <div className="aboutme-image-background">
-                            <img className="me-portrait" src="/img/me_portrait_faded_70.jpg" height="600px" width="auto" alt="portrait of me"/>
+                            <img className="me-portrait" src="/img/me_small.jpg" height="600px" width="auto" alt="portrait of me"/>
                         </div>
                         </h2>
                     </Cell>
