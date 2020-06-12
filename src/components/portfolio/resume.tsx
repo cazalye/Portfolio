@@ -131,6 +131,7 @@ class Resume extends Component {
                                 jobDescription="A modern e-commerce site built with WooCommerce. For details of this work please see the projects tab."
                                 url="https://brandsonparade.com"
                                 site="Visit site"
+                                icon="fas fa-external-link-alt"
                                 // project2="Cazalye Travel Blog"
                                 // jobDescription2="A travel website focused on adventure inspiration & photography"
                                 // url2="www.cazalye.com"
