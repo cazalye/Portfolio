@@ -30,7 +30,7 @@ class Portfolio extends Component {
 
                 <div className="project-summary"> 
                     <h2>Portfolio</h2>
-                    <p className="sub-header">web design & development projects</p>
+                    <p className="sub-header">Web design & development projects</p>
                     <h3>Date</h3>
                     <p>May 2020</p>
                     <h3>My Role</h3>
