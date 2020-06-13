@@ -2,7 +2,7 @@
 
 .mdl-grid.resume-grid{
     filter: saturate(1);
-    background-image: url("/img/Mountains.jpg");
+    background-image: url("/img/Mountains_small.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -172,12 +172,14 @@
         font-family: 'Open Sans';
         text-decoration: none;
         i{
-          padding-left: .6vw;
+          padding-left: 15px;
         }
       }
     }
     .reference{
       h5{
+        font-family: 'Open Sans';
+        font-weight: 100;
         color:$accentOrange;
         padding-top: 0px;
         margin-top: 0px;
@@ -185,6 +187,8 @@
         line-height: 2.5vw;
       }
       p{
+        font-family: 'Open Sans';
+        font-weight: 100;
         text-align: left;
         font-size: 1.2vw;
         line-height: 2.2vw;
