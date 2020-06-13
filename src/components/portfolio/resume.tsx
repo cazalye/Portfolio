@@ -272,10 +272,17 @@ class Resume extends Component {
                             <h2>References</h2>
                             <References
                                 Name="Mr. Bentley Deegan"
-                                Description="Business Director"
+                                Description="Business Co-director"
                                 Company="Brands on Parade"
                                 Email="bentley@brandsonparade.com"
                                 Phone='+61 467 633 815'
+                            />
+                            <References
+                                Name="Associate Professor Adele Holloway"
+                                Description="PhD Supervisor & Mentor"
+                                Company="Menzies Institue for Medical Research"
+                                Email="a.f.holloway@utas.edu.au"
+                                Phone='+61 3 6226 2670'
                             />
                             <References
                                 Name="Professor Jaakko Kaprio"
@@ -290,13 +297,6 @@ class Resume extends Component {
                                 Company="Institute for Molecular Medicine Finland"
                                 Email="jing.tang@fimm.fi"
                                 Phone="NA"
-                            />
-                            <References
-                                Name="Associate Professor Adele Holloway"
-                                Description="PhD Supervisor & Mentor"
-                                Company="Menzies Institue for Medical Research"
-                                Email="a.f.holloway@utas.edu.au"
-                                Phone='+61 3 6226 2670'
                             />
                         </Cell>
                 </Grid>
