@@ -127,13 +127,16 @@ class Resume extends Component {
                             <Experience
                                 startYear={2020}
                                 jobName="Freelance Web Developer"
+                                summary="For details please see the projects page"
                                 project="Brands on Parade Bottle Shop"
-                                jobDescription="A modern e-commerce site built with WooCommerce. For details of this work please see the projects tab."
+                                jobDescription="A modern e-commerce site built with WooCommerce"
                                 url="https://brandsonparade.com"
                                 site="Visit site"
-                                // project2="Cazalye Travel Blog"
-                                // jobDescription2="A travel website focused on adventure inspiration & photography"
-                                // url2="www.cazalye.com"
+
+                                project2="The Tasmanian Juice Press"
+                                jobDescription2="A visually rich landing page built with React"
+                                url2="http://juice.cazalye.com"
+                                site2="Visiti Site"
                             />
                             <Experience
                                 startYear={2017}
