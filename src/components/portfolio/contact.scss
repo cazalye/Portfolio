@@ -14,14 +14,14 @@
         h1{
             text-align: right;
             font-family: 'Open Sans';
-            font-size: 58px;
+            font-size: 48px;
             font-weight: 100;
             color:#222;
             margin-top: 0px;
-            margin-bottom: 10px;
+            margin-bottom: 0px;
         }
         hr{
-            width: 270px;
+            width: 250px;
             border-top: 1px solid #333;
             margin-left: auto;
             margin-right: 0px;
@@ -29,9 +29,10 @@
             margin-bottom: 40px;
         }
         h5{
-            font-size: 1.4vw;
+            font-size: 1.3vw;
             color:#333;
             margin-top: 20px;
+            line-height: 10px;
         }
         a{
             color:#333;
@@ -64,6 +65,11 @@
             //     right: 0;
             //     bottom: -1px;
             // }
+            i{
+                padding-left: 20px;
+                font-size: 16px;
+                line-height: 20px;
+            }
         }
     }
 }
