@@ -8,6 +8,12 @@ class Projects extends Component {
             <div id="projects">
                  <div className="card-container">
                     <ProjectCards
+                        title="The Tasmanian Juice Press"
+                        summary="A visually rich landing page, built with React"
+                        link="/juice"
+                        image="/img/juicePress.jpg"
+                    />
+                    <ProjectCards
                         title="Brands on Parade"
                         summary="A modern online bottle shop, built with WooCommerce"
                         link="/ecommerce"
@@ -18,7 +24,7 @@ class Projects extends Component {
                     />
                     <ProjectCards
                         title="cazalye"
-                        summary="A visually rich travel blog, built with React and Wordpress"
+                        summary="A travel blog & photo diary, built with React and Wordpress"
                         link="/travelBlog"
                         image="/img/Rafting_small.jpg"
                         // gitLink= "https://github.com/cazalye/cazalye"
