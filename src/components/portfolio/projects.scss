@@ -269,8 +269,10 @@
     #projects{
         .card-container{
             top: 11%;
-            left: 20%;
+            padding-top: 7%;
+            left: 2.5%;
             margin-right: 40px;
+            width: 95%;
             .project-cards{
                 height: 520px;
                 height: auto;
@@ -287,8 +289,9 @@
                         
                         h2{
                             font-size: 2.2vw;
-                            margin-top: 10%;
-                            margin-bottom: 8%;
+                            line-height: 2.8vw;
+                            margin-top: 15%;
+                            margin-bottom: 15%;
                         }
                         p{
                             margin: 20px;
