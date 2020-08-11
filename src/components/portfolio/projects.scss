@@ -79,16 +79,20 @@
         height: auto;
         // height: 100vh;
         overflow-y: scroll;
+        overflow-x: hidden;
         .card-container{
             position: relative;
             display: block;
             margin-top: 25%;
-            left: 1.5%;
+            width: 90%;
+            left: 5%;
             margin-bottom: 10%;
             .project-cards{
                 z-index: 9;
                 display: inline-flex;
+                justify-content: space-between;
                 height: 45vh;
+                height: auto;
                 width: 80%;
                 position: relative;
                 margin: 30px;
@@ -102,15 +106,17 @@
                         h2{
                             position: relative;
                             font-size: 6.7vw;
+                            line-height: 7.7vw;
                             margin-bottom: 0%;
-                            padding-bottom: 0%;
-                            margin-top: 5%;
+                            padding-bottom: 5%;
+                            margin-top: 10%;
                         }
                         p{
                             font-size: 3.8vw;
                             line-height: 5.5vw;
                             margin-top: 5px;
                             padding: 0%;
+                            padding-bottom: 5%;
                         }
                     }
                 }
