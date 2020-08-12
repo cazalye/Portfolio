@@ -15,9 +15,9 @@ class Juice extends Component {
                     <h3>Date</h3>
                     <p>July 2020</p>
                     <h3>My Role</h3>
-                    <p>Product & Marketing Photography, Copy,  Design & Development, Upcoming Hosting & Deployment</p>
+                    <p>Product & Marketing Photography, Copy,  Design & Development, Hosting & Deployment</p>
                     <h3>Check it out</h3>
-                    <a href="https://juice.cazalye.com" rel="noopener noreferrer" target="_blank"> 
+                    <a href="https://tasjuicepress.com" rel="noopener noreferrer" target="_blank"> 
                         Launch Site
                         <i className='fas fa-external-link-alt' aria-hidden="true"/>
                     </a>
@@ -40,15 +40,14 @@ class Juice extends Component {
                         <li>Creating on brand copy throughout the site</li>
                         <li>Development from start to finish with React</li>
                         <li>User Experience including Usability Tests</li>
-                        <h5>Upcoming:</h5>
                         <li>Hosting and Domain Name set up</li>
                         <li>Security: SSL certificate</li>
                         <li>SEO, Google Indexing & Google Analytics</li>
                     </ul>
                     <h3>The Results</h3>
-                    <p>An on-brand, visually rich landing page to provide more information to customers, with opportunities throughout the site to purchase their product. 
+                    <p>An on-brand, visually appealing lead generation site with opportunities throughout to purchase their product.
                     </p>
-                    <a href="https://juice.cazalye.com" rel="noopener noreferrer" target="_blank"> 
+                    <a href="https://tasjuicepress.com" rel="noopener noreferrer" target="_blank"> 
                         Visit the Site
                         <i className='fas fa-external-link-alt' aria-hidden="true"/>
                     </a>

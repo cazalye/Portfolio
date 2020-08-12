@@ -135,7 +135,7 @@ class Resume extends Component {
 
                                 project2="The Tasmanian Juice Press"
                                 jobDescription2="A visually rich landing page built with React"
-                                url2="http://juice.cazalye.com"
+                                url2="https://tasjuicepress.com"
                                 site2="Visiti Site"
                             />
                             <Experience
