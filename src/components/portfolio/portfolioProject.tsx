@@ -30,13 +30,17 @@ class Portfolio extends Component {
 
                 <div className="project-summary"> 
                     <h2>Portfolio</h2>
-                    <p className="sub-header">web design & development projects</p>
+                    <p className="sub-header">web development projects</p>
                     <h3>Date</h3>
                     <p>May 2020</p>
                     <h3>My Role</h3>
                     <p>Design, Development, Content</p>
                     <h3>Check it out</h3>
                     <Link to="/"> Launch Site  <i className='fas fa-external-link-alt' aria-hidden="true"/></Link>
+                    <a href="https://github.com/cazalye/portfolio" rel="noopener noreferrer" target="_blank">
+                        Visit GitHub Repo  
+                        <i className="fab fa-github" aria-hidden="true"/>
+                    </a>
                 </div> 
 
 
@@ -46,9 +50,9 @@ class Portfolio extends Component {
 
                 <div className="project-content">
                     <h3>The Brief</h3>
-                    <p>One of the first things I discovered on my path to becoming a front-end web developer was the importance of a strong portfolio. Evidence also suggests that the best way to learn a new skill is through practical  project-based learning. As such, building my own portfolio served as an effective, hands on way to both learn a modern JavaScript framework and showcase my work. </p>
+                    <p>A modern, responsive portfolio site to share my web development projects, CV and contact information.</p>
                     <h3>The Approach</h3>
-                    <p>As this site was my first foray into the world of React, I began by following a YouTube tutorial on how to build a portfolio. Through this tutorial I learnt the basics of HTML, CSS, JavaScript and React- including popular component libraries like React-MDL. Initally, I used JavaScript and vanilla CSS for the project. Later, after gaining experience with React during the creation of my blog site, I returned to the portfolio and converted the code to TypeScript and SCSS, as by this stage the power and efficiency of these supersets were clear to me.</p>
+                    <p>This site is built with React.</p>
                     <a href="https://github.com/cazalye/portfolio" rel="noopener noreferrer" target="_blank">
                         Visit final GitHub Repo  
                         <i className="fab fa-github" aria-hidden="true"/>

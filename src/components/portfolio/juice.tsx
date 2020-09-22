@@ -21,6 +21,10 @@ class Juice extends Component {
                         Launch Site
                         <i className='fas fa-external-link-alt' aria-hidden="true"/>
                     </a>
+                    <a href="https://github.com/cazalye/juicePress" rel="noopener noreferrer" target="_blank"> 
+                        Visit GitHub Repo
+                        <i className='fab fa-github' aria-hidden="true"/>
+                    </a>
                 </div>
                 
                 <Tooltip className="arrow-tooltip" label="Scroll Down" position="bottom">
@@ -29,9 +33,9 @@ class Juice extends Component {
 
                 <div className="project-content">
                     <h3>The Brief</h3>
-                    <p>The Tasmanian Juice Press is a local small business, producing cold pressed juices from locally sourced fruit and vegetables. They have a strong emphasis on environmentally friendly practices and supporting other local businesses.<hr/>This website is a landing page for their customers, to find out a little more about the company and range of juices on offer. Throughout the site there are shop links to their e-commerce site (Brands on Parade).</p>
+                    <p>The Tasmanian Juice Press is a local small business, producing cold pressed juices from locally sourced fruit and vegetables. They have a strong emphasis on environmentally friendly practices and supporting other local businesses. This website is a landing page for their customers to find out more about the company and range of juices on offer. Throughout the site there are shop links to their e-commerce site.</p>
                     <h3>The Approach</h3>
-                    <p>The clients were after a minimal yet visually rich design, emphasising their focus on sustainability and being a local Tasmanian company. I was solely responsible for the project from start to finish, including:</p>
+                    <p>The front-end of this site is built with React and linked to Wordpress as the CMS. I was solely responsible for the project from start to finish, including:</p>
 
                     <ul>
                         <li>Photography: editorial syle shots at the Farm Gate Market and product shots</li>
@@ -44,6 +48,10 @@ class Juice extends Component {
                         <li>Security: SSL certificate</li>
                         <li>SEO, Google Indexing & Google Analytics</li>
                     </ul>
+                    <a href="https://github.com/cazalye/juicePress" rel="noopener noreferrer" target="_blank"> 
+                        Visit GitHub Repo
+                        <i className='fab fa-github' aria-hidden="true"/>
+                    </a>
                     <h3>The Results</h3>
                     <p>An on-brand, visually appealing lead generation site with opportunities throughout to purchase their product.
                     </p>
@@ -52,7 +60,7 @@ class Juice extends Component {
                         <i className='fas fa-external-link-alt' aria-hidden="true"/>
                     </a>
 
-                </div>
+                </div> 
          
             </div>
         );

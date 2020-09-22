@@ -41,9 +41,9 @@ class Ecommerce extends Component {
 
                 <div className="project-content">
                     <h3>The Brief</h3>
-                    <p>Brands on Parade is a local Tasmanian small business specialising in distributing boutique booze, distilling their own vodka and managing The Tasmanian Juice Press. Their brand has a strong emphasis on sustainability, minimal-waste and supporting other local businesses.<hr/>Following the recent restrictions to the hospitality industry, the company saw an almost immediate cease in wholesale orders. Uncertainty surrounding local farmers markets- their primary source of retail sales, also created an urgent need for an online presence. They sought my help for a clean, minimal e-commerce, that reflected their branding and focused on user experience and subscription based juice orders.</p>
+                    <p>Brands on Parade is a local Tasmanian small business specialising in distributing boutique booze, distilling their own vodka and managing The Tasmanian Juice Press. Their brand has a strong emphasis on sustainability, minimal-waste and supporting other local businesses. They were after an e-commerce site for all aspects of their business.</p>
                     <h3>The Approach</h3>
-                    <p>As this was my first e-commerce site, and required a quick turn-around time, I chose WooCommerce as the e-commerce platform. I was solely responsible for the project from start to finish, including:</p>
+                    <p>This site is built with Wordpress and WooCommerce. I was solely responsible for the project from start to finish, including:</p>
 
                     <ul>
                         <li>Photography: 70+ products, editorial syle shots </li>
