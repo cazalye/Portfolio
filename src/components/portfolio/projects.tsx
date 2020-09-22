@@ -8,40 +8,36 @@ class Projects extends Component {
             <div id="projects">
                  <div className="card-container">
                     <ProjectCards
+                        title="University Football Club"
+                        summary="A local sports club site, built with Gatsby, Contentful & Netlify"
+                        link="/football"
+                        image="/img/football.jpg"
+                    />
+                    <ProjectCards
                         title="The Tasmanian Juice Press"
-                        summary="A visually rich landing page, built with React"
+                        summary="A lead-generation site, built with React & Wordpress"
                         link="/juice"
                         image="/img/juicePress.jpg"
                     />
                     <ProjectCards
                         title="Brands on Parade"
-                        summary="A modern online bottle shop, built with WooCommerce"
+                        summary="An e-commerce site, built with Wordpress & WooCommerce"
                         link="/ecommerce"
                         image="/img/Brands_small.jpg"
-                        // siteLink= "https://brandsonparade.com"
-                        // siteIcon= "fa fa-globe"
-                        // siteIcon= "fab fa-wordpress-simple"
+
                     />
                     <ProjectCards
                         title="cazalye"
-                        summary="A travel blog & photo diary, built with React and Wordpress"
+                        summary="A travel blog, built with React and Wordpress"
                         link="/travelBlog"
                         image="/img/Rafting_small.jpg"
-                        // gitLink= "https://github.com/cazalye/cazalye"
-                        // gitIcon= "fab fa-github"
-                        // siteLink= "http://cazalye.com"
-                        // siteIcon= "fa fa-globe"
                     />
-                    <ProjectCards
+                    {/* <ProjectCards
                         title="Portfolio"
                         summary="A responsive portfolio, built with React"
                         link="/portfolio"
                         image="/img/Mountains_small.jpg"
-                        // gitLink= "https://github.com/cazalye/portfolio"
-                        // gitIcon= "fab fa-github"
-                        // siteLink= "https://portfolio.cazalye.com"
-                        // siteIcon= "fa fa-globe"
-                    />
+                    /> */}
                 </div>
             </div>
         );

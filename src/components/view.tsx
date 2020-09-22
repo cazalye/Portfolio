@@ -10,6 +10,7 @@ import Ecommerce from './portfolio/ecommerce';
 import TravelBlog from './portfolio/travelBlog';
 import Portfolio from './portfolio/portfolioProject';
 import Juice from './portfolio/juice';
+import Football from './portfolio/football';
 
 
 
@@ -25,6 +26,7 @@ const View = () => (
         <Route exact={true} path='/travelBlog' component={TravelBlog}/>
         <Route exact={true} path='/portfolio' component={Portfolio}/>
         <Route exact={true} path='/juice' component={Juice}/>
+        <Route exact={true} path='/football' component={Football}/>
 
     </Switch>
 );
