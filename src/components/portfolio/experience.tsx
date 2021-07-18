@@ -8,12 +8,16 @@ interface ExperienceProps {
 
     project?: string;
     project2?: string;
+    project3?: string;
     jobDescription: string;
     jobDescription2?: string;
+    jobDescription3?: string;
     url?: string;
     url2?: string;
+    url3?: string;
     site?: string;
     site2?: string;
+    site3?: string;
     summary?: string;
 }
 
@@ -32,6 +36,8 @@ class Experience extends Component<ExperienceProps, ExperienceProps>{
                     <p>{this.props.jobDescription}</p>
                     <a href={this.props.url2} target="_blank" rel="noopener noreferrer">{this.props.project2}</a>
                     <p>{this.props.jobDescription2}</p>
+                    <a href={this.props.url3} target="_blank" rel="noopener noreferrer">{this.props.project3}</a>
+                    <p>{this.props.jobDescription3}</p>
                 </Cell>
             </Grid>
         )

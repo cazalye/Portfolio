@@ -7,7 +7,7 @@ import Publications from './publications';
 import Awards from './awards';
 import References from './references';
 import './resume.scss';
-import NavbarStyler from '../navbar/navbarStyler';
+// import NavbarStyler from '../navbar/navbarStyler';
 
 class Resume extends Component {
     // state = {
@@ -40,7 +40,7 @@ class Resume extends Component {
                     <Cell className="resume-col resume-left-col" col={4}> 
                         <h1>A <br/>designer<br/> who<br/> codes</h1>
                         <h2>
-                            I'm a front-end React developer with a passion for photography and design. <hr/> I combine my analytical skills and strong attention to detail, honed from my career in data science, with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish. 
+                            I'm a front-end developer with a passion for photography and design. <hr/> I combine my analytical skills and strong attention to detail, honed from my career in data science, with modern development tools and an understanding of UX Design, to build effective, pixel perfect web solutions from start to finish. 
  
                             {/* I create evocative websites with catchy copy, that center around intuitive, responsive designs and inspire users.  <hr/> */}
                             {/* I have a background in Data Science, where I specialised in genetics research, particularly Big Data Analytics.<hr/> */}
@@ -59,75 +59,63 @@ class Resume extends Component {
                             <h1>Skills</h1>
                             <Skills
                                 skill="HTML / CSS (SASS)"
-                                progress={85}
+                                progress={90}
                             />
                             <Skills
                                 skill="JavaScript / TypeScript"
-                                progress={50}
+                                progress={40}
                             />
                             <Skills
                                 skill="React.js"
                                 progress={50}
                             />
                             <Skills
-                                skill="Wordpress & WooCommerce"
-                                progress={80}
+                                skill="Wordpress & PHP"
+                                progress={70}
+                            />
+                            <Skills
+                                skill="E-commerce: Shopify & Woocommerce"
+                                progress={70}
                             />
                             <Skills
                                 skill="Git & Github"
-                                progress={80}
+                                progress={90}
                             />
-                            
-                            <Skills
+                              <Skills
                                 skill="Visual Studio Code, Sublime Text, Vim"
                                 progress={80}
                             />
-                            <Skills
-                                skill="Adobe Suite: Ps, Lr, Ai, Id, Xd"
-                                progress={80}
-                            />
-                            {/* <Skills
-                                skill="Photography & Editing"
-                                progress={85}
-                            /> */}
                             <Skills
                                 skill="Unix-based tools"
                                 progress={80}
                             />
                             <Skills
-                                skill="Big Data Analysis"
+                                skill="Big Data Analysis in R"
                                 progress={95}
                             />
                             <Skills
-                                skill="R"
-                                progress={95}
+                                skill="Adobe Suite: Ps, Lr, Ai, Id, Xd"
+                                progress={80}
                             />
                             <Skills
-                                skill="Python"
-                                progress={20}
+                                skill="Photography & Editing"
+                                progress={80}
                             />
-                            <Skills
-                                skill="Machine Learning"
-                                progress={20}
-                            />
-                            <Skills
-                                skill="Statistics"
-                                progress={95}
-                            />
-                            <Skills
-                                skill="Project Management"
-                                progress={85}
-                            />
-                            <Skills
-                                skill="Molecular Biology"
-                                progress={100}
-                            />
+                          
+
                             <hr/>
                             <h2>Experience</h2>
                             <Experience
                                 startYear={2020}
+                                jobName="Front-end Developer at Ionata Digital"
+                                project="Recent build: Hobart Historic Tours"
+                                jobDescription="At Ionata I create new sites as well as providing customer support and expertise to our extensive customer base. I predominantly work with Wordpress and PHP, and more recently Shopify."
+                                url="https://hobarthistorictours.com.au/"
+                                site="Visit site"
+                            />
+                            <Experience
+                                startYear={2020}
                                 jobName="Freelance Web Developer"
-                                summary="For details please see the projects page"
                                 project="Brands on Parade Bottle Shop"
                                 jobDescription="A modern e-commerce site built with WooCommerce"
                                 url="https://brandsonparade.com"
@@ -136,7 +124,12 @@ class Resume extends Component {
                                 project2="The Tasmanian Juice Press"
                                 jobDescription2="A visually rich landing page built with React"
                                 url2="https://tasjuicepress.com"
-                                site2="Visiti Site"
+                                site2="Visit Site"
+
+                                project3="University Football Club"
+                                jobDescription3="A local sports club site built with Gatsby, Contentful & Netlify"
+                                url3="https://universityfc.org/"
+                                site3="Visit Site"
                             />
                             <Experience
                                 startYear={2017}
@@ -293,13 +286,6 @@ class Resume extends Component {
                                 Company="Institute for Molecular Medicine Finland"
                                 Email="jaako.kaprio@helsinki.fi"
                                 Phone="+358 294 127 595"
-                            />
-                            <References
-                                Name="Associate Professor Jing Tang"
-                                Description="Collaborator, co-author of 2019 publication"
-                                Company="Institute for Molecular Medicine Finland"
-                                Email="jing.tang@fimm.fi"
-                                Phone="NA"
                             />
                         </Cell>
                 </Grid>
