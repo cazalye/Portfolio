@@ -15,7 +15,7 @@
     "@types/react-mdl": "^1.7.27",
     "@types/react-router-dom": "^5.1.5",
     "material-ui": "^0.20.2",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-mdl": "^2.1.0",
